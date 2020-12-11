@@ -1,0 +1,42 @@
+<!--pages/page-sqghs/page-sqghs.wxml-->
+<view class="supplier">
+  <image class="supplier-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jibenxinxi.png"></image>
+  <text class="supplier-text">添加基本信息</text>
+</view>
+<view class="select" wx:for="{{navs}}" key="">
+  <text class="select-name">{{item.name}}</text>
+  <text class="select-title">{{item.text}}</text>
+  <image class="select-icon" src="{{item.img}}"></image>
+</view>
+<view class="select">
+  <text class="select-name">您的地址</text>
+  <text class="select-title-one">省份</text>
+  <image class="select-icon-one" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xialaxuanze.png"></image>
+  <text class="select-title-two">城市</text>
+  <image class="select-icon-two" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xialaxuanze.png"></image>
+  <text class="select-title-three">区县</text>
+  <image class="select-icon-three" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xialaxuanze.png"></image>
+</view>
+<view class="uploading">
+  <text class="uploading-name">请上传店铺营业执照</text>
+  <view class="uploading-icon">
+    <view class="business-license">
+      <view class="block-top"></view>
+      <view class="block-bottom"></view>
+      <view class="block-left"></view>
+      <view class="block-right"></view>
+      <image class="business-icon" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xiangji@2x.png"></image>
+    </view>
+  </view>
+</view>
+<view class="supplier">
+  <image class="supplier-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_baozhengjin@2x.png"></image>
+  <text class="supplier-text">添加基本信息</text>
+</view>
+<view class="earnest">
+  <text class="earnest-title">99</text>
+  <view class="gopay">去支付</view>
+</view>
+<view class="btn">
+  提交审核
+</view>

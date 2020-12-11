@@ -1,0 +1,6 @@
+{
+  "navigationStyle":"custom",
+  "usingComponents": {
+    "header_yqjl": "/components/header-yqjl"
+  }
+}

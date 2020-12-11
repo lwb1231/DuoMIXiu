@@ -1,0 +1,181 @@
+/* pages/page-jzzx/page-jzzx.wxss */
+page {
+  height: 100%;
+  background: #F4F4F4;
+}
+
+.top {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 1rpx;
+}
+
+.topsearch {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  padding: 2% 0;
+  align-items: center;
+}
+
+.frame {
+  background: #E7E7E7;
+  width: 75%;
+  border-radius: 20rpx;
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.frame>input {
+  font-size: 24rpx;
+  margin: 6rpx 0;
+  width: 80%;
+  padding-left: 10rpx;
+}
+
+.topsearch>text {
+  width: 10%;
+  margin-left: 5%;
+  color: #FF1C6C;
+}
+
+.history {
+  background-color: white;
+  padding: 4%;
+}
+
+.history_title {
+  height: 100rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  color: #a8a7a7fa;
+  align-items: center;
+}
+
+.history_text {
+  padding: 4% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.history_text>text {
+  background-color: #f7f7f7;
+  padding: 1% 3%;
+  margin: 2%;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+}
+
+.history_text>text:first-child {
+  margin-left: 0;
+}
+
+.none {
+  height: 200rpx;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper_con {
+  width: 96%;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swiper_con_view {
+  width: 48%;
+  height: 530rpx;
+  background-color: white;
+  margin: 10rpx 0;
+}
+
+.swiper_con_view:nth-child(even) {
+  margin-left: 4%;
+}
+
+.swiper_con_view_view {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.frame_img {
+  width: 23rpx;
+  height: 23rpx;
+}
+
+.frame_img1 {
+  width: 18rpx;
+  height: 18rpx;
+  position: absolute;
+  right: 20rpx;
+}
+
+.list {
+  padding: 0 20rpx;
+  margin-top: 8rpx;
+  height: 90rpx;
+  background: #fff;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  line-height: 60rpx;
+}
+
+.list_mess{
+  height: 220rpx;
+  margin-top: 1rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.list_mess_img{
+  width: 144rpx;
+height: 144rpx;
+border-radius: 10rpx;
+}
+.user_name{
+  margin-left: 30rpx;
+}
+
+.user_name view{
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  line-height: 50rpx;
+}
+.user_ID text{
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #999999;
+}
+.user_ID text:nth-child(2){
+  margin-left: 60rpx;
+}
+
+.Application{
+  width: 104rpx;
+height: 48rpx;
+border: 1px solid #FF1C6C;
+border-radius: 24rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #FF1C6C;
+position: absolute;
+right: 20rpx;
+}

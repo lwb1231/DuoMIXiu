@@ -1,0 +1,73 @@
+/* pages/page-jecz/page-jecz.wxss */
+.mount_Two {
+  background: linear-gradient(0deg, #DC68FF, #9752FF);
+}
+
+.text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 10rpx 0;
+}
+
+.expiration {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rpx;
+}
+
+.employ {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 30rpx;
+}
+.table{
+margin-top: 10rpx;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+
+.td {
+  display: flex;
+  justify-content: center;
+  border: 1rpx solid #DEDEDE;
+  border-left: none;
+  width: 40%;
+  padding: .5rem 0;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.th {
+  border: 1rpx solid #DEDEDE;
+  border-left: none;
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}

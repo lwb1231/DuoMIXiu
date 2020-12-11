@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "商品详情",
+  "backgroundColor": "#222222",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "subtract": "/components/subtract-com/index"
+  }
+}

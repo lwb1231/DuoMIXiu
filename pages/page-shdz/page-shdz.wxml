@@ -1,0 +1,36 @@
+<!--pages/page-shdz/page-shdz.wxml-->
+<view hidden="{{currentTab!==0}}">
+
+<view class="detailed">
+	<view class="detailed_top">
+		<text>{{navs.consignee}}</text>
+		<text>{{navs.mobile}}</text>
+	</view>
+	<view class="detailed_bottom">
+		<text>{{navs.district}} {{navs.address}}</text>
+	</view>
+</view>
+<view class="Operation">
+
+	<view class="Operation_one">
+		<!-- <checkbox-group  name="checkbox">
+          <label><checkbox value="checkbox1"/></label>
+        </checkbox-group> -->
+		<image bindtap="goQH" src="{{is_default? 'https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xuanzhong.png' : 'https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_weixuanzhong.png'}}"></image>
+		<text>默认</text>
+	</view>
+
+	<view class="Operation_two">
+		<image src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_bianji1@3x.png"></image>
+		<text>编辑</text>
+	</view>
+	<view class="Operation_three">
+		<image src="/images/icon_shanchu.png"></image>
+		<text bindtap="delect">删除</text>
+	</view>
+</view>
+</view>
+
+<view class="add" bindtap="Newadd">
+	添加新地址
+</view>

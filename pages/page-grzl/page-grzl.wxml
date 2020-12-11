@@ -1,0 +1,132 @@
+<!--pages/page-grzl/page-grzl.wxml-->
+<view class="header_bg">
+	<view class="navigation-bar" style="height:130rpx">
+		<view class="navigation-buttons" style="{{'height:' + menuButtonHeight}}">
+			<image bindtap="_goBack" class="nav-img" src='https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fanhui.png' />
+			<view class="withdraw">
+				<image class="Edit" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_bianji1.png"></image>
+				<image class="Share" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fenxiang1.png"></image>
+			</view>
+		</view>
+	</view>
+	<view class="personal-data" wx:for="{{head_portrait}}" key="">
+		<image class="head-portrait" bindtap="goPersonal" src="{{item.img}}"></image>
+		<view class="particular">
+			<view class="introduce">
+				<view class="personal-mess">{{item.title}} </view>
+			</view>
+			<view class="introduce">
+				<view class="gender">
+					<image class="gender1" src="{{item.ico1}}"></image>
+				</view>
+				<view class="song">
+					<image class="song1" src="{{item.ico2}}"></image> <text class="num">{{item.num1}}</text>
+				</view>
+				<view class="dou">
+					<image class="dou1" src="{{item.ico3}}"></image> <text class="num">{{item.num2}}</text>
+				</view>
+			</view>
+			<view class="introduce">
+				<text class="user-ID">{{item.user_ID}}</text>
+				<text class="user-num">{{item.user_num}}</text>
+			</view>
+			<view class="introduce fans">
+				<text class="bean-vermicelli" bindtap="vermicelli">{{item.num3}}粉丝</text>
+				<text class="long-string"></text>
+				<text class="attention" bindtap="attention">{{item.num4}}关注</text>
+			</view>
+		</view>
+
+	</view>
+	<view class="page1-top">
+		<view class="navban">
+			<block wx:for="{{sible}}" key="" class="navs-img">
+				<view class="navbox" bindtap="goParticulars" data-path='{{item.path}}'>
+					<image class="navimg" src="{{item.img}}"></image>
+					<text class="navtext">{{item.name}}</text>
+				</view>
+			</block>
+		</view>
+
+	</view>
+</view>
+<view class="section">
+	<!--导航条-->
+	<view class="navbar">
+		<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+		<view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap" id="right-icon">
+			<view class="icon-big">
+				<image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+			</view>
+		</view>
+	</view>
+
+	<!--资料-->
+	<view hidden="{{currentTab!==0}}">
+		<view class="list">
+			<view class="left">
+				<view class="left_title">映票贡献榜</view>
+				<view class="left_img">
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_huangguan.png"></image>
+					</view>
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_yinguan.png"></image>
+					</view>
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_tongguan.png"></image>
+					</view>
+				</view>
+			</view>
+			<view class="right">
+				<view class="left_title">映票贡献榜</view>
+				<view class="left_img">
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_huangguan.png"></image>
+					</view>
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_yinguan.png"></image>
+					</view>
+					<view class="left_img1">
+						<image class="left_img2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+						<image class="left_img3" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_tongguan.png"></image>
+					</view>
+				</view>
+			</view>
+
+		</view>
+      <view class="impression">
+      <text>主播印象</text>
+      </view>
+      <view class="impression1">
+      <text>你还暂时没有收到主播印象</text>
+      </view>
+        <view class="impression">
+      <text>个性签名</text>
+      </view>
+      <view class="impression1">
+      <text>这家伙很懒，什么都没留下</text>
+      </view>  <view class="impression">
+      <text>个人信息</text>
+      </view>
+      <view class="impression1">
+      <view>生日：</view>
+      <view>所在地：</view>
+      </view>
+	</view>
+
+	<!--视频-->
+	<view hidden="{{currentTab!==1}}">
+		qqq
+	</view>
+	<!--直播-->
+	<view hidden="{{currentTab!==1}}">
+		222
+	</view>
+</view>

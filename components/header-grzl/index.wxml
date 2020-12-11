@@ -1,0 +1,10 @@
+    <!--自定义导航栏-->
+    <view class="navigation-bar" style="height:130rpx">
+        <view class="navigation-buttons" style="{{'height:' + menuButtonHeight}}">
+            <image bindtap="_goBack" class="nav-img" src='https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fanhui.png'/>
+           <view class="withdraw">
+           <image class="Edit" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_bianji1.png"></image>
+           <image  class="Share" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fenxiang1.png"></image>
+           </view>
+        </view> 
+</view>

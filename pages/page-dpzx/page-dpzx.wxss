@@ -1,0 +1,134 @@
+/* pages/page-dpzx/page-dpzx.wxss */
+page {
+  width: 750rpx;
+  height: 1334rpx;
+  background: #101010;
+
+}
+
+.header_portrait {
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+}
+
+.name-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-shop view {
+  width: 300rpx;
+  line-height: 50rpx;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+
+}
+
+.name_2 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #D0D0D0;
+}
+
+.main-conten {
+  width: 702rpx;
+  height: 1022rpx;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  right: 24rpx;
+}
+
+.Category_titel {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+
+.Category_img {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.Category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+
+.Category_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Category_right view {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FF1C6C;
+  line-height: 60rpx;
+  margin-left: 20rpx;
+}
+
+.project-details {
+  display: flex;
+  margin-top: 50rpx;
+}
+
+.project_img {
+  width: 146rpx;
+  height: 141rpx;
+margin-left: 20rpx;
+}
+
+.project_right_title{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+line-height: 40rpx;
+}
+.project_right{
+  padding: 0 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project_right_title1{
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FF1C6C;
+line-height: 60rpx;
+}
+.project_right_title2{
+font-size: 22rpx;
+font-family: PingFang SC;
+font-weight: 500;
+text-decoration: line-through;
+color: #666666;
+line-height: 60rpx;
+margin-left: 20rpx;
+}
+
+.information{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #333333;
+line-height: 40rpx;
+text-align: center;
+margin-top: 400rpx;
+}

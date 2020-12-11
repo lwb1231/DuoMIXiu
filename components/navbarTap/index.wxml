@@ -1,0 +1,40 @@
+<!--components/header-com/index.wxml-->
+
+  <!--自定义导航栏-->
+  <view style="background:#fff">
+    <image bindtap="_goBack" class="nav-img"
+        src='https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fanhui@2x.png' />
+      <!--导航条-->
+  </view>
+      <view class="navbar">
+        <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"
+          wx:key="unique" bindtap="navbarTap">{{item}}</text>
+        <view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique"
+          bindtap="navbarTap" id="right-icon">
+          <view class="icon-big">
+          </view>
+        </view>
+      </view>
+      <!--我的直播间-->
+      <view hidden="{{currentTab!==0}}">
+        <view class="list-option">
+          <block wx:for="{{navs}}" key="">
+            <view class="option" bindtap="gobroadcasting" data-path='{{item.path}}'>
+              <text class="navtext1">{{item.name}}</text>
+              <image class="more" src="{{item.ico}}"></image>
+            </view>
+          </block>
+        </view>
+      </view>
+
+      <!--我的房间-->
+      <view hidden="{{currentTab!==1}}">
+        <view class="list-option">
+          <block wx:for="{{navs_One}}" key="">
+            <view class="option" bindtap="goDetail" data-path='{{item.path}}'>
+              <text class="navtext1">{{item.name}}</text>
+              <image class="more" src="{{item.ico}}"></image>
+            </view>
+          </block>
+        </view>
+      </view>

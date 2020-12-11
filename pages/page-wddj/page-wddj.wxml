@@ -1,0 +1,118 @@
+<!--pages/page-wddj/page-wddj.wxml-->
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+  <view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap"
+    id="right-icon">
+    <view class="icon-big">
+      <image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+    </view>
+  </view>
+</view>
+
+<!--用户等级-->
+<view hidden="{{currentTab!==0}}">
+  <view class="grade">
+    <image class="grade-img" src="{{img}}"></image>
+    <view class="grade-num">Lv.{{grade}}</view>
+    <view class="empirical-upgrade">
+      <view class="empirical">经验值:{{empirical}}</view>
+      <view class="upgrade">距离升级:{{upgrade}}</view>
+    </view>
+    <view class="schedule">
+      <view class="schedule-one">Lv.{{grade}}</view>
+      <view class="schedule-two"></view>
+      <view class="schedule-three">Lv.{{grade1}}</view>
+    </view>
+  </view>
+  <view class="privilege">等级特权</view>
+  <view class="privilege-modality">
+    <view class="privilegeOne">
+      <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_paiming.png">
+      </image>
+      <text>排名靠前</text>
+    </view>
+    <view class="privilegeOne">
+      <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xunzhang.png">
+      </image>
+      <text>等级勋章</text>
+    </view>
+  </view>
+  <view class="privilege">如何升级</view>
+  <view class="privilege-modality">
+    <view class="privilegeTwo">
+      <view class="privilegeTwo_1">
+        <image class="privilegeTwo-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_liwu.png">
+        </image>
+        <text>送礼</text>
+      </view>
+      <view class="privilegeTwo_1">
+        <image class="privilegeTwo-img"
+          src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_shangchengxiaofei.png">
+        </image>
+        <text>商城消费</text>
+      </view>
+    </view>
+    <view class="privilegeOne" style="margin-left:30rpx">
+      <image style="width:206rpx;height:206rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_huojian.png">
+      </image>
+    </view>
+  </view>
+  <view class="privilege">用户等级说明</view>
+
+</view>
+
+<!--主播等级-->
+<view hidden="{{currentTab!==1}}">
+  <view class="grade">
+    <image class="grade-img" src="{{img}}"></image>
+    <view class="grade-num">Lv.{{grade}}</view>
+    <view class="empirical-upgrade">
+      <view class="empirical">经验值:{{empirical}}</view>
+      <view class="upgrade">距离升级:{{upgrade}}</view>
+    </view>
+    <view class="schedule">
+      <view class="schedule-one">Lv.{{grade}}</view>
+      <view class="schedule-two"></view>
+      <view class="schedule-three">Lv.{{grade1}}</view>
+    </view>
+  </view>
+  <view class="privilege">等级特权</view>
+  <view class="privilege-modality">
+    <view class="privilegeOne">
+      <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xunzhang.png">
+      </image>
+      <text>等级标识</text>
+    </view>
+    <view class="privilegeOne">
+      <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_shenfen.png">
+      </image>
+      <text>身份标识</text>
+    </view>
+  </view>
+  <view class="privilege">如何升级</view>
+  <view class="privilege-modality">
+    <view class="privilegeTwo">
+      <view class="privilegeTwo_1">
+        <image class="privilegeTwo-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_liwu.png">
+        </image>
+        <text>送礼</text>
+      </view>
+      <view class="privilegeTwo_1">
+        <image class="privilegeTwo-img"
+          src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_shangchengxiaofei.png">
+        </image>
+        <text>商城消费</text>
+      </view>
+    </view>
+    <view class="privilegeOne" style="margin-left:30rpx">
+      <image style="width:206rpx;height:206rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_huojian.png">
+      </image>
+    </view>
+  </view>
+  <view class="privilege">用户等级说明</view>
+
+</view>

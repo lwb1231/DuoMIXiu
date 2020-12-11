@@ -1,0 +1,50 @@
+<!--pages/page-wddj/page-wddj.wxml-->
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+  <view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap"
+    id="right-icon">
+    <view class="icon-big">
+      <image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+    </view>
+  </view>
+</view>
+
+<!--收礼物明细-->
+<view hidden="{{currentTab!==0}}">
+  <view class="table">
+ <view class="tr bg-w">
+  <view class="th">礼物名称</view>
+  <view class="th">价值</view>
+  <view class="th ">个数</view>
+  <view class="th ">送礼人</view>
+ </view>
+ <block wx:for="{{listData}}" wx:key="{[code]}">
+  <view class="tr">
+   <view class="td">{{item.giftinfo.giftname}}</view>
+   <view class="td">{{item.totalall}}</view>
+   <view class="td">{{item.num}}</view>
+   <view class="td">{{item.userinfo.user_nicename}}</view>
+  </view>
+ </block>
+</view>
+</view>
+
+<!--直播时长明细-->
+<view hidden="{{currentTab!==1}}">
+  <view class="table">
+ <view class="tr bg-w">
+  <view class="th">开始时间</view>
+  <view class="th">结束时间</view>
+  <view class="th ">直播时长</view>
+ </view>
+ <block wx:for="{{listTime}}" wx:key="{[code]}">
+  <view class="tr">
+   <view class="td">{{item.starttime}}</view>
+   <view class="td">{{item.endtime}}</view>
+   <view class="td">{{item.length}}</view>
+  </view>
+ </block>
+</view>
+</view>

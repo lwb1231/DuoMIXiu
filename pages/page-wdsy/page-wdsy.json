@@ -1,0 +1,6 @@
+{
+  "navigationStyle":"custom",
+  "usingComponents": {
+    "hello": "/components/header-com"
+  }
+}

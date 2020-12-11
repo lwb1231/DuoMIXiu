@@ -1,0 +1,76 @@
+/* pages/page-fbsp/page-fbsp.wxss */
+page{
+background: #E8E8E8;
+}
+.share_img{
+  width: 18rpx;
+  height: 17rpx;
+  margin-right: 20rpx;
+}
+.Options{
+  height: 80rpx;
+  background: #fff;
+}
+.Options{
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  margin-top: 1rpx;
+}
+.Options1{
+  margin-top: 60rpx;
+}
+
+.choose{
+  height: 696rpx;
+  background: #fff;
+  margin-top: 60rpx;
+}
+.Options1 text{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.add_img{
+  width: 162rpx;
+height: 205rpx;
+background: #E8E8E8;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50rpx;
+}
+.add_img image{
+  width: 68rpx;
+height: 68rpx;
+
+}
+.place{
+  position: absolute;
+  right: 20rpx;
+}
+
+.share_img_1{
+  width: 8rpx;
+  height: 15rpx;
+  margin-left: 10rpx;
+}
+.Options2{
+  margin-top: 10rpx;
+  height: 50rpx;
+}
+.Release{
+  width: 276rpx;
+height: 70rpx;
+background: #FF1C6C;
+border-radius: 35rpx;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 100rpx auto auto auto;
+}

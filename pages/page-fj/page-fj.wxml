@@ -1,0 +1,65 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+  <view class="right-icon">
+    <image class="img-ss1" src="/images/icon_sousuo.png"></image>
+    <image class="img-ss2" src="/images/icon_liuyan.png"></image>
+  </view>
+</view>
+
+<!--关注-->
+<view hidden="{{currentTab!==0}}">
+  <view class="page2-top">
+  </view>
+  <view class="recommend_sp">
+    <block wx:for="{{image_sp}}" wx:key="{{title}}">
+      <view style="width:350rpx;" class="recommend_sp_img">
+        <image style="width:346rpx;height:416rpx" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+        <text class="shiping">{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <view style="height:150rpx"></view>
+</view>
+
+<!--直播-->
+<view hidden="{{currentTab!==1}}">
+  <view class="page2-top">
+  </view>
+  <view class="recommend_sp">
+    <block wx:for="{{image_sp}}" wx:key="{{title}}">
+      <view style="width:350rpx;" class="recommend_sp_img">
+        <image style="width:346rpx;height:416rpx" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+        <text class="shiping">{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <view style="height:150rpx"></view>
+</view>
+
+<!--悬赏中心-->
+<view hidden="{{currentTab!==2}}">
+  <view class="page1-top">
+    <swiper class="navban">
+      <swiper-item>
+        <block wx:for="{{navs}}" key="" class="navs-img">
+          <view class="navbox">
+            <image class="navimg" src="{{item.img}}"></image>
+            <text class="navtext">{{item.name}}</text>
+          </view>
+        </block>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="recommend_sp">
+    <block wx:for="{{image_sp}}" wx:key="{{title}}">
+      <view style="width:350rpx;" class="recommend_sp_img">
+        <image class="image1" src="{{item.img}}" mode="aspectFill"></image>
+        <text class="shiping">{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <view style="height:150rpx"></view>
+
+</view>

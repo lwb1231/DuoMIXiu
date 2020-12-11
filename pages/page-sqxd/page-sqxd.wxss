@@ -1,0 +1,113 @@
+/* pages/page-sqxd/page-sqxd.wxss */
+page {
+  background: #E8E8E8;
+}
+
+.uploading_credentials {
+
+  margin-top: 20rpx;
+}
+
+.uploading {
+  height: 360rpx;
+  background: #fff;
+  margin-top: 1rpx;
+  padding: 0 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.privilege {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  line-height: 30rpx;
+  padding-top: 25rpx;
+}
+.privilege view{
+  padding-left: 10rpx;
+}
+.privilege input{
+  width: 100%;
+  padding-left: 10rpx;
+}
+.privilege-modality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50rpx;
+  width: 170rpx;
+}
+
+.privilege-modality text {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 10rpx;
+}
+
+.privilegeOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 162rpx;
+  height: 205rpx;
+  background: #E8E8E8;
+
+}
+
+.privilege-img {
+  width: 39rpx;
+  height: 39rpx;
+}
+
+.privilegeOne text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin-top: 20rpx;
+  color: #666666;
+}
+
+.privilege1{
+  height: 100rpx;
+  line-height: 30rpx;
+  background: #fff;
+  margin-top: 30rpx;
+  padding-left: 20rpx;
+}
+.privilege1 input{
+  margin-top: 10rpx;
+}
+.Oli_img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 40rpx;
+  background: #fff;
+}
+.uploading_img{
+  margin-top: 150rpx;
+}
+.submit{
+  height: 200rpx;
+  background: #fff;
+  padding-top: 20rpx;
+}
+.submit_btn{
+  width: 702rpx;
+  height: 76rpx;
+  background: #FF1C6C;
+  border-radius: 33rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 76rpx;
+  text-align: center;
+
+}

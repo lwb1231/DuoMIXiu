@@ -1,0 +1,93 @@
+<!--pages/page-particulars/page-particulars.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+	<block wx:for="{{imgUrls}}">
+		<swiper-item>
+			<image src="{{item}}" data-src="{{item}}" bindtap="previewImage"></image>
+		</swiper-item>
+	</block>
+</swiper>
+<scroll-view scroll-y="true">
+	<view class="detail">
+		<text class="title">
+      华为mate 30全网通 标配版 8GB+128GB星河银 移动联通电信...
+    </text>
+		<view class="pric-orig" wx:for="{{navs}}" key="">
+			<text class="price">￥4699.00</text>
+			<text class="original">￥5499.00</text>
+			<view class="share">
+				<image class="share-img" src="{{item.img}}"></image>
+				<view class="share-text">{{item.share_text}}</view>
+			</view>
+			<view class="volume">
+				<view>{{item.text}}</view>
+				<view>{{item.text1}}</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- sku选择 -->
+	<view class="select" bindtap="toggleDialog">选择
+		<view class="select-color">颜色</view>
+		<view class="select-versions">版本</view>
+		<image class="select-more" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png"></image>
+	</view>
+	<view class="dialog {{ showDialog ? 'dialog--show' : '' }}">
+		<view class="dialog__mask" bindtap="toggleDialog" />
+		<view class="dialog__container">
+			<view class="row">
+				<image bindtap="closeDialog" class="image-close" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_chahao.png"></image>
+				<image class="image-sku" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+				<view class="column">
+					<view class="detail jieshao">
+						<text class="title">
+              华为mate 30全网通 标配版 8GB+128GB星河银 移动联通电信...
+            </text>
+						<view class="pric-orig" wx:for="{{navs}}" key="">
+							<text class="price">￥4699.00</text>
+							<text class="original">￥5499.00</text>
+							<view class="volume">
+								<view>{{item.repertory}}</view>
+								<view>{{item.repertory_num}}</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+<view style="margin-top:30rpx">
+			<text class="choose_color">颜色</text>
+			<view class="navbar">
+        <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"   bindtap="navbarTap">{{item}}</text>
+			</view>
+			<text class="choose_color">版本</text>
+			<view class="navbar">
+        <text wx:for="{{navbar_one}}" data-idx="{{index}}" class="item {{currentTab_one==index ? 'active' : ''}}"   bindtap="navbarTap_one">{{item}}</text>
+			</view>
+				<text class="choose_color">购买数量</text>
+				<view class="quantity-position">
+					<subtract></subtract>
+			</view>
+
+</view>
+  <view class="btn">
+  			<view class="button-cartColor" style="width:50%" bindtap="addCar" formType="submit">加入购物车</view>
+			<view class="button-purchase" style="width:50%" bindtap="immeBuy" formType="submit">立即购买</view>
+  </view>
+
+		</view>
+	</view>
+	<!-- <view class="separate"></view> -->
+	<text class="separate">商品描述</text>
+	<block wx:for-items="{{detailImg}}" wx:key="name">
+		<image class="image_detail" src="{{item}}" />
+	</block>
+	<view class="temp"></view>
+</scroll-view>
+<!-- 底部悬浮栏 -->
+<view class="detail-nav">
+	<image bindtap="toCar" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_kefu.png" />
+	<view class="line_nav"></view>
+	<image src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gouwuche.png"></image>
+
+	<button class="button-cartColor" bindtap="addCar" formType="submit">加入购物车</button>
+	<button class="button-purchase" bindtap="immeBuy" formType="submit">立即购买</button>
+</view>

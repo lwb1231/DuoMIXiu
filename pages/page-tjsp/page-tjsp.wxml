@@ -1,0 +1,38 @@
+<!--pages/page-tjsp/page-tjsp.wxml-->
+<search></search>
+  <view class="project-details">
+    <image class="project_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="project_right">
+      <view class="project_right_title">华为mate 30全网通 标配版 8GB+128GB星河银移动联通电信...</view>
+      <view class="Add_1">已添加</view>
+      <view class="project_Profit">佣金80% | 赚¥31.92</view>
+      <view class="project_right_title">
+        <text class="project_right_title1">¥4699.00</text>
+        <text class="project_right_title2">¥5499.00</text>
+      </view>
+    </view>
+  </view>
+    <view class="project-details">
+    <image class="project_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="project_right">
+      <view class="project_right_title">华为mate 30全网通 标配版 8GB+128GB星河银移动联通电信...</view>
+      <view class="Add_2">添加</view>
+      <view class="project_Profit">佣金80% | 赚¥31.92</view>
+      <view class="project_right_title">
+        <text class="project_right_title1">¥4699.00</text>
+        <text class="project_right_title2">¥5499.00</text>
+      </view>
+    </view>
+  </view>
+    <view class="project-details">
+    <image class="project_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="project_right">
+      <view class="project_right_title">华为mate 30全网通 标配版 8GB+128GB星河银移动联通电信...</view>
+      <view class="Add_2">添加</view>
+      <view class="project_Profit">佣金80% | 赚¥31.92</view>
+      <view class="project_right_title">
+        <text class="project_right_title1">¥4699.00</text>
+        <text class="project_right_title2">¥5499.00</text>
+      </view>
+    </view>
+  </view>

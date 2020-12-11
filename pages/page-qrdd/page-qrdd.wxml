@@ -1,0 +1,56 @@
+<!--pages/page-qrdd/page-qrdd.wxml-->
+<view class="distribution">
+  <image class="distribution_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_peisongfangshi.png">
+  </image>
+  <text class="distribution_text">配送方式</text>
+  <view class="distribution_select">请选择</view>
+  <image class="distribution_img-right" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png">
+  </image>
+</view>
+<view class="New_add" bindtap="New_add">
+  <image class="distribution_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_add.png"></image>
+  <text class="distribution_text">新增地址</text>
+  <image class="distribution_img-right" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png">
+  </image>
+</view>
+<view class="merchandise">
+  <text class="message_text">商品信息</text>
+  <view class="merchandise_mass">
+    <image class="merchandise_mass_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="merchandise_recommend">
+      <view class="merchandise_recommend1">
+        华为mate 30全网通 标配版 8GB+128GB 星
+        河银 移动联通电信4G全面屏手机 双...
+      </view>
+      <view class="merchandise_recommend2">颜色:星河银; 版本:8+128G;</view>
+      <view class="merchandise_recommend3"><text class="merchandise_recommend3_text">¥4699.00</text>
+        <view class="subtract">
+          <subtract></subtract>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>
+<view class="message">
+  <text class="message_text">买家留言</text>
+  <textarea name="" id="" cols="30" rows="10" placeholder="建议留言前先于商家沟通"></textarea>
+</view>
+<view class="amount">
+  <view class="amount1">
+    <text>商品金额</text>
+    <text>¥4699.00</text>
+  </view>
+  <view class="amount1">
+    <text>运费</text>
+    <text>¥0.00</text>
+  </view>
+  <view class="amount1_btn">
+    <view class="amou">
+      <text>合计：</text>
+      <text>¥4699.00</text>
+    </view>
+
+    <view class="amount1_btn1">立即付款</view>
+  </view>
+</view>

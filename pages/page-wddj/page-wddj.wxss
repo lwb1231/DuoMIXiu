@@ -1,0 +1,142 @@
+/* pages/page-wddj/page-wddj.wxss */
+
+.navbar{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+ }
+ .navbar .item{
+  position: relative;
+  width: 200rpx;
+  color: #333333;
+  font-size: 28rpx;
+ }
+ .navbar .item.active{
+   font-size: 32rpx;
+  color: #666666;
+
+ }
+ .navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 6rpx;
+  width: 68rpx;
+  height: 10rpx;
+  background: #FF1C6C;
+  border-radius: 5rpx;
+ }
+
+
+ .grade{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 30rpx;
+ }
+ .grade-img{
+  width: 188rpx;
+  height: 188rpx;
+  border-radius: 50%;
+ }
+ .grade-num{
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 30rpx;
+ }
+ .empirical-upgrade{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 30rpx;
+ }
+ .empirical{
+   margin-right: 30rpx;
+ }
+
+
+ .schedule{
+   width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+ }
+ .schedule-two{
+  width: 384rpx;
+  height: 7rpx;
+  background: #DDDDDD;
+  border-radius: 4rpx;
+ }
+ .privilege{
+  margin: 60rpx 0 0rpx 0 ;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #666666;
+  padding-left: 30rpx;
+ }
+
+ .privilege-modality{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .privilegeOne{
+   display: flex;
+   flex-direction: column;
+   margin-right: 100rpx;
+ }
+ .privilege-img{
+   width: 94rpx;
+   height: 94rpx;
+ }
+ .privilegeOne text{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin-top: 20rpx;
+  color: #666666;
+ }
+
+ .privilegeTwo{
+   margin-left: 60rpx;
+ }
+ .privilegeTwo_1{
+   width: 150rpx;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   margin-bottom: 50rpx;
+ }
+ .privilegeTwo-img{
+   width: 35rpx;
+   height: 35rpx;
+ }
+ .privilegeTwo text{
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 10rpx;
+ }

@@ -1,0 +1,127 @@
+<!--pages/page-wddj/page-wddj.wxml-->
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+  <view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap"
+    id="right-icon">
+    <view class="icon-big">
+      <image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+    </view>
+  </view>
+</view>
+
+<!--会员-->
+<view hidden="{{currentTab!==0}}">
+  <view class="Member">
+    <view class="">--</view>
+    <view class="VIP_Member">vip会员专属特权</view>
+    <view class="">--</view>
+  </view>
+  <view class="grade" wx:for="{{grade}}">
+    <view class="grade_left" >
+      <view class="grade_left-title">{{item.grade_top}}</view>
+      <view class="grade_left-effect">{{item.grade_bottom}}</view>
+    </view>
+    <view class="grade_right">
+      <view class="grade_left-title">{{item.grade_right_top}}</view>
+      <view class="grade_left-effect">{{item.grade_right_bottom}}</view>
+    </view>
+  </view>
+  <view class="membership">开通会员</view>
+</view>
+
+<!--靓号-->
+<view hidden="{{currentTab!==1}}">
+
+  <view class="grade grade_transcript">
+
+    <view class="mount">
+      <image style="width:138rpx;height:171rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_maolv.png"></image>
+      <text class="text">小毛驴</text>
+      <view class="expiration">
+        <text>到期时间</text>
+        <view>{{time}}</view>
+      </view>
+      <view class="employ">使用</view>
+    </view>
+    <view class="mount mount_Two">
+      <image style="width:138rpx;height:171rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_saoba.png"></image>
+      <text class="text">魔法扫把</text>
+      <view class="expiration">
+        <text>到期时间</text>
+        <view>{{time}}</view>
+      </view>
+      <view class="employ">使用</view>
+    </view>
+  </view>
+</view>
+
+<!--坐骑-->
+<view hidden="{{currentTab!==2}}">
+
+  <view class="grade grade_transcript">
+
+    <view class="mount">
+      <image style="width:138rpx;height:171rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_maolv.png"></image>
+      <text class="text">小毛驴</text>
+      <view class="expiration">
+        <text>200钻石/月</text>
+        <view>200积分/月</view>
+      </view>
+      <view class="purchase">
+        <view class="employ">钻石购买</view>
+      <view class="employ">积分兑换</view>
+      </view>
+
+    </view>
+    <view class="mount mount_Two">
+      <image style="width:138rpx;height:171rpx"
+        src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_saoba.png"></image>
+      <text class="text">魔法扫把</text>
+      <view class="expiration">
+        <text>300钻石/月</text>
+        <view>300积分/月</view>
+      </view>
+      <view class="purchase">
+        <view class="employ">钻石购买</view>
+      <view class="employ">积分兑换</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="grade grade_transcript">
+    <view class="mount mount_Two">
+  <image style="width:138rpx;height:171rpx"
+    src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_saoba.png"></image>
+  <text class="text">魔法扫把</text>
+  <view class="expiration">
+    <text>300钻石/月</text>
+    <view>300积分/月</view>
+  </view>
+  <view class="purchase">
+    <view class="employ">钻石购买</view>
+  <view class="employ">积分兑换</view>
+  </view>
+</view>
+
+<view class="mount">
+  <image style="width:138rpx;height:171rpx"
+    src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_maolv.png"></image>
+  <text class="text">小毛驴</text>
+  <view class="expiration">
+    <text>200钻石/月</text>
+    <view>200积分/月</view>
+  </view>
+  <view class="purchase">
+    <view class="employ">钻石购买</view>
+  <view class="employ">积分兑换</view>
+  </view>
+
+</view>
+
+</view>
+</view>

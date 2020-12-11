@@ -1,0 +1,9 @@
+<!--pages/page-fjgl/page-fjgl.wxml-->
+<view class="list-option">
+        <block wx:for="{{navs}}" key="">
+            <view class="option"  bindtap="goDetail" data-path='{{item.path}}'>
+                <text class="navtext1">{{item.name}}</text>
+                <image class="more" src="{{item.ico}}"></image>
+            </view>
+        </block>
+</view>

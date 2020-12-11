@@ -1,0 +1,47 @@
+<!--components/header-kslz/index.wxml-->
+<!--自定义导航栏-->
+<view class="navigation-bar" style="height:130rpx">
+	<view class="navigation-buttons" style="{{'height:' + menuButtonHeight}}">
+		<image bindtap="_goBack" class="nav-img" src='https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fanhui.png' />
+		<view class="add">
+			<view class="Address">
+				<image style="width:45rpx;height:45rpx" src="/images/icon_dizhi.png"></image>
+				<text class="text">郑州市</text>
+			</view>
+			<image style="width:46rpx;height:42rpx" src="/images/icon_xiangji.png"></image>
+			<image class="chahao" style="width:29rpx;height:28rpx" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_chahao.png"></image>
+		</view>
+	</view>
+</view>
+<view class="title">
+	<view class="Add-video">
+		<image src="/images/icon_jia.png"></image>
+		<text>直播封面</text>
+	</view>
+	<view class="video-title">
+		<text class="title_top">直播标题</text>
+		<text class="title_bottom">给直播写个标题吧</text>
+	</view>
+	<view class="title_right">频道 <image style="width:11rpx;height:20rpx;" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png"></image>
+	</view>
+</view>
+
+<view class="Share">
+	<text>分享至</text>
+	<image class="Share_img" src="/images/icon_qq.png"></image>
+	<image class="Share_img" src="/images/icon_kongjian.png"></image>
+	<image class="Share_img" src="/images/icon_weixin.png"></image>
+	<image class="Share_img" src="/images/icon_pengyouquan.png"></image>
+</view>
+
+<view class="broadcast">
+	<view class="broadcast_top">
+		<view class="broadcast_top1">
+			<image src="/images/icon_meiyan.png"></image>美颜
+		</view>
+		<view class="broadcast_top1">
+			<image src="/images/icon_fangzi.png"></image>房间类型
+		</view>
+	</view>
+	<view class="broadcast_btn">开始直播</view>
+</view>

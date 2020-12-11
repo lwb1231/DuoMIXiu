@@ -1,0 +1,25 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+  <view class="right-icon">
+    <image class="img-ss1" src="/images/icon_搜索.png"></image>
+    <image class="img-ss2" src="/images/icon_留言.png"></image>
+  </view>
+</view>
+
+<!--关注-->
+<view hidden="{{currentTab!==0}}">
+  <view class="page2-top">
+  </view>
+  <view class="recommend_sp">
+    <block wx:for="{{image_sp}}" wx:key="{{title}}">
+      <view style="width:350rpx;" class="recommend_sp_img">
+        <image style="width:346rpx;height:416rpx" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+        <text class="shiping">{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <view style="height:150rpx"></view>
+</view>
+

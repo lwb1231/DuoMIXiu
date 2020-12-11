@@ -1,0 +1,112 @@
+{
+  "pages": [
+
+
+    "pages/index/index",
+    "pages/page-main/page-main",
+    "pages/page-mx/page-mx",
+    "pages/page-qb/page-qb",
+    "pages/page-xzshdz/page-xzshdz",
+    "pages/page-shdz/page-shdz",
+
+
+    "pages/page-ph/page-ph",
+    "pages/page-grzl/page-grzl",
+    "pages/page-cart/page-cart",
+    "pages/page-jzzx/page-jzzx",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/page-fj/page-fj",
+    "pages/page-bianji/page-bianji",
+    "pages/page-wdsp/page-wdsp",
+    "pages/page-gxsz/page-gxsz",
+    "template/quantity/index",
+    "pages/page-wdrz/page-wdrz",
+    "pages/page-sqghs/page-sqghs",
+    "pages/page-wddj/page-wddj",
+    "pages/page-wdorder/page-wdorder",
+    "pages/page-jzsq/page-jzsq",
+    "pages/page-fjgl/page-fjgl",
+    "pages/page-dpzx/page-dpzx",
+    "pages/page-qrdd/page-qrdd",
+    "pages/page-ddxqdfk/page-ddxqdfk",
+    "pages/page-kqxd_xxsh/page-kqxd_xxsh",
+    "pages/page-fbsp/page-fbsp",
+    "pages/page-qyjz/page-qyjz",
+    "pages/page-sqxd/page-sqxd",
+    "pages/page-zbzx/page-zbzx",
+    "pages/page-jzzd/page-jzzd",
+    "pages/page-kqbzj/page-kqbzj",
+    "pages/page-jzzy/page-jzzy",
+    "pages/page-zxkf/page-zxkf",
+    "pages/page-wdgz/page-wdgz",
+    "pages/page-czmm/page-czmm",
+    "pages/page-wdfs/page-wdfs",
+    "pages/page-glylb/page-glylb",
+    "pages/page-particulars/page-particulars",
+    "pages/page-wdzbj/page-wdzbj",
+    "pages/page-sc/page-sc",
+    "pages/page-xx/page-xx",
+    "pages/page-yqjl/page-yqjl",
+    "pages/page-yqjlsj/page-yqjlsj",
+    "pages/page-yqjlxj/page-yqjlxj",
+    "pages/page-kszb/page-kszb",
+    "pages/page-jecz/page-jecz",
+    "pages/page-tjsp/page-tjsp",
+    "pages/page-yjfk/page-yjfk",
+    "pages/page-wdxd/page-wdxd",
+    "pages/page-kslz/page-kslz",
+    "pages/page-ddxq/page-ddxq",
+    "pages/page-text/page-text",
+    "pages/page-wdsy/page-wdsy",
+
+    "pages/page-sqjd/page-sqjd",
+    "pages/page-sqrz/page-sqrz",
+    "pages/page-sy_ss/page-sy_ss"
+
+  ],
+
+"subpackages": [
+  {
+    "root": "zhibo",
+    "pages": [
+      "list/list"
+    ],
+    "plugins": {
+      "live-player-plugin": {
+        "version": "1.2.3",
+        "provider": "wx2b03c6e691cd7370"
+      }
+    }
+  }
+],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "哆米秀",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/page-fj/page-fj",
+        "text": "附近"
+      },
+      {
+        "pagePath": "pages/page-ph/page-ph",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/page-main/page-main",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

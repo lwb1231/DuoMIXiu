@@ -1,0 +1,65 @@
+/* pages/page-yjfk/page-yjfk.wxss */
+.feedback{
+  width: 750rpx;
+height: 606rpx;
+background: #F0F0F0;
+}
+.feedback textarea{
+  padding: 20rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.feedback_img{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feedback_img_top{
+  width: 150rpx;
+height: 150rpx;
+background: #E8E8E8;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.feedback_img_bottom{
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #999999;
+line-height: 48rpx;
+}
+
+.feedback_img_top image{
+  width: 53rpx;
+  height: 53rpx;
+}
+.tips{
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #999999;
+line-height: 48rpx;
+padding: 0 20rpx;
+}
+.tips text{
+  float: right;
+}
+
+.click_feedback{
+  width: 702rpx;
+height: 76rpx;
+background: #FF1C6C;
+border-radius: 33rpx;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 400rpx auto auto auto;
+}

@@ -1,0 +1,17 @@
+<!--pages/page-jecz/page-jecz.wxml-->
+
+<!--直播时长明细-->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">时间</view>
+    <view class="th">明细</view>
+    <view class="th ">金额</view>
+  </view>
+  <block wx:for="{{listTime}}" wx:key="{[code]}">
+    <view class="tr">
+      <view class="td">{{item.time1}}</view>
+      <view class="td">{{item.time2}}</view>
+      <view class="td">{{item.time3}}</view>
+    </view>
+  </block>
+</view>

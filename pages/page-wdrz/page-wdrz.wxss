@@ -1,0 +1,65 @@
+/* pages/page-wdrz/page-wdrz.wxss */
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.authentication{
+  width: 213rpx;
+  height: 155rpx;
+  margin-top: 50rpx;
+}
+.tips{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 60rpx;
+}
+.text{
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #666666;
+}
+
+.tips1{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 40rpx;
+}
+.text1{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #999999;
+}
+.regulations{
+color: #FF1C6C;
+}
+
+.attestation{
+  margin-top: 100rpx;
+}
+.btn{
+  width: 476rpx;
+  height: 82rpx;
+  background: #FF1C6C;
+  border-radius: 41rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.approve{
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  margin-left: 25%;
+  margin-bottom: 20rpx;
+}

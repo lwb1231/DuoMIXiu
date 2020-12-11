@@ -1,0 +1,59 @@
+<!--pages/page-qb/page-qb.wxml-->
+<view class="brick">
+  <view class="my_brick">我的砖石</view>
+  <view class="quantity">{{quantity}}</view>
+</view>
+
+
+<!-- 支付方式 -->
+<view class="payment">
+  <text class="uploading-name">请选择支付方式</text>
+  <view class="navbar">
+    <view wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+      bindtap="navbarTap">
+      <image class="Head_payment" src="{{item.img}}"></image>
+      <view class="name_payment">{{item.name}}</view>
+    </view>
+    <view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap"
+      id="right-icon">
+      <view class="icon-big">
+        <image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 充值金额 -->
+<view class="money">
+  <text class="uploading-name">请选择充值金额</text>
+  <view class="sum">
+    <view wx:for="{{sum}}" data-idx="{{index}}" class="item {{currentTab_one==index ? 'active' : ''}}" wx:key="unique"
+      bindtap="navbarTap_one">
+      <view class="money_option1">
+        <view class="money_option1_1">
+          <text class="money_option_text">{{item.coin}}</text>
+          <image class="money_option1_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_zhuanshi1.png"></image>
+        </view>
+        <view class="money_option1_2">{{item.money}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="agreement">
+
+  <view class="container">
+    <view class="page-body">
+      <view class="page-section">
+        <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+          <view class="weui-cell__hd">
+            <checkbox class="checkbox" value="{{item.value}}" checked="{{item.checked}}" />
+          </view>
+        </label>
+      </view>
+    </view>
+
+  </view>
+  <view> 已阅读并同意</view>
+  <text class="protocol">《用户充值协议》</text>
+</view>

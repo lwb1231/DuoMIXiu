@@ -1,0 +1,41 @@
+<!--pages/page-dpzx/page-dpzx.wxml-->
+<view class="header_portrait">
+  <image style="width:118rpx;height:118rpx;"
+    src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_maolv.png"></image>
+  <view class="name-shop">
+    <view>店铺名称</view>
+    <view class="name_2">啊路路</view>
+  </view>
+</view>
+
+<view class="main-conten">
+  <view class="Category">
+    <view class="Category_titel">全部商品2</view>
+    <view class="Category_right">
+      <image class="Category_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_tianjia.png">
+      </image>
+      <view>添加商品</view>
+    </view>
+  </view>
+  <view class="project-details">
+    <image class="project_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="project_right">
+      <view class="project_right_title">华为mate 30全网通 标配版 8GB+128GB星河银移动联通电信...</view>
+      <view class="project_right_title">
+        <text class="project_right_title1">¥4699.00</text>
+        <text class="project_right_title2">¥5499.00</text>
+      </view>
+    </view>
+  </view>
+  <view class="project-details">
+    <image class="project_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    <view class="project_right">
+      <view class="project_right_title">华为mate 30全网通 标配版 8GB+128GB星河银移动联通电信...</view>
+      <view class="project_right_title">
+        <text class="project_right_title1">¥4699.00</text>
+        <text class="project_right_title2">¥5499.00</text>
+      </view>
+    </view>
+  </view>
+<view class="information">没有更多数据了</view>
+</view>

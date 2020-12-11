@@ -1,0 +1,9 @@
+<!--components/header-com/index.wxml-->
+    <!--自定义导航栏-->
+    <view class="navigation-bar" style="height:130rpx">
+        <view class="navigation-buttons" style="{{'height:' + menuButtonHeight}}">
+            <image bindtap="_goBack" class="nav-img" src='https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_fanhui.png'/>
+           <text>消息</text>
+           <view class="withdraw">忽略未读</view>
+        </view> 
+</view>

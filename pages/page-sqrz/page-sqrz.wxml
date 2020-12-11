@@ -1,0 +1,30 @@
+<!--pages/page-sqrz/page-sqrz.wxml-->
+<view class="header_bg">
+	以下信息均为必填项，为保证您的利益，请如实填写
+</view>
+<view class="message">
+	<block wx:for="{{navs}}" wx:key="">
+		<view class="user_message">
+			<label>{{item.name}}</label>
+			<input placeholder="{{item.title}}" placeholder-style="font-size: 20rpx;color: #999999;"></input>
+		</view>
+
+	</block>
+</view>
+<view class="Upload">
+<block wx:for="{{Upload}}" wx:key="">
+	<view class="Upload1">
+		<view class="Upload1_top">
+			<image class="Upload_img" src="{{item.img}}"></image>
+		</view>
+		<text>{{item.text}}</text>
+	</view>
+</block>
+</view>
+<view class="Example">手持证件照示例</view>
+<view class="Example_img">
+<image  src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_shouchishenfenzheng.png"></image>
+<view>请按图示手持证件拍照</view>
+<view>确保证件信息清晰可见</view>
+</view>
+<view class="Agree">同意并签约</view>

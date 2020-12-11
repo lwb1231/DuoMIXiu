@@ -1,0 +1,25 @@
+<!--pages/page-wdxd/page-wdxd.wxml-->
+<view class="shop">
+<view class="text">申请条件</view>
+<view class="text1">完成以下条件即可申请店铺</view>
+</view>
+<view class="number" wx:for="{{navs}}" key="">
+  <image src="{{item.img}}"></image>
+  <view class="number1">
+    <view class="number1_top">{{item.text}}</view>
+    <view class="number1_bottom">{{item.num}}
+      <image src="{{item.img1}}"></image>
+    </view>
+  </view>
+  <text class="number_right">{{item.state}}</text>
+</view>
+<view class="shop shop1">
+<view class="text">店铺创建完成您将获得以下权益</view>
+<view class="text1">1.个人主页拥有我的小店橱窗入口</view>
+<view class="text1">2.在直播间内添加直播购物车</view>
+<view class="text1">3.发布短视频作品时可关联商品</view>
+</view>
+
+<view class="apply">
+  立即申请
+</view>

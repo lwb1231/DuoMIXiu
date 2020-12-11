@@ -1,0 +1,63 @@
+/* pages/page-kqbzj/page-kqbzj.wxss */
+page {
+
+  background: #F4F4F4;
+}
+
+.Pay {
+  height: 100rpx;
+  margin-top: 1rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explain {
+  height: 1110rpx;
+  background: #fff;
+  margin-top: 6rpx;
+
+}
+
+.pay_right_img {
+  width: 32rpx;
+  height: 27rpx;
+  margin-left: 10rpx;
+}
+
+.text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+
+.explain {
+  padding: 30rpx;
+}
+
+.explain_sec {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 48rpx;
+  margin-top: 40rpx;
+}
+
+.Confirm-payment {
+  width: 702rpx;
+  height: 76rpx;
+  background: #FF1C6C;
+  border-radius: 33rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100rpx;
+}

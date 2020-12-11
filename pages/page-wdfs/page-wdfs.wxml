@@ -1,0 +1,5 @@
+<!--pages/page-wdfs/page-wdfs.wxml-->
+<view class="vermicelli">
+  <view class="vermicelli_one">你还没有粉丝</view>
+  <view class="vermicelli_two">完善个人信息会让更多的人关注到你哦~</view>
+</view>

@@ -1,0 +1,57 @@
+/* pages/page-fjgl/page-fjgl.wxss */
+page {
+  background: #DEDEDE;
+  height: 100%;
+}
+
+.list-option {
+  width: 100%;
+  margin-top: 1rpx;
+  background: #ffffff;
+  height: 100%;
+}
+
+.option {
+  width: 100%;
+  padding: 0 20rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.navtext1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+}
+
+.more {
+  width: 28rpx;
+  height: 28rpx;
+  position: absolute;
+  right: 20rpx;
+}
+
+.title {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  padding: 0 20rpx;
+}
+
+.user-photo {
+  width: 81rpx;
+  height: 81rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.sex{
+  width: 19rpx;
+  height: 19rpx;
+  margin-left: 10rpx;
+
+}

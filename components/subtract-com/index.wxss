@@ -1,0 +1,40 @@
+/* components/subtract-com/index.wxss */
+page {
+  padding: 20rpx 0;
+  }
+  /*主容器*/
+  .stepper {
+  height:50rpx;
+  width: 195rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 3rpx;
+  margin: 20rpx 0 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  /*加号和减号*/
+  .stepper text {
+    font-size: 40rpx;
+  float: left;
+  width: 35rpx;
+  text-align: center;
+  }
+  /*数值*/
+  .stepper input {
+  width: 80rpx;
+  height: 30rpx;
+  float: left;
+  text-align: center;
+  font-size: 36rpx;
+  border-left: 1rpx solid #ccc;
+  border-right: 1rpx solid #ccc;
+  }
+  /*普通样式*/
+  .stepper .normal {
+  color:black;
+  }
+  /*禁用样式*/
+  .stepper .disable {
+  color: #ccc;
+  }

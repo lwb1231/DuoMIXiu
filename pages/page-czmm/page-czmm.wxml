@@ -1,0 +1,7 @@
+<!--pages/page-czmm/page-czmm.wxml-->
+<view wx:for="{{password}}" class="password">
+  <label for="">{{item.title}}</label><input placeholder="{{item.tips}}" placeholder-style="font-size: 26rpx;" type="text"/>
+</view>
+<view class="affirm">
+确认修改
+</view>

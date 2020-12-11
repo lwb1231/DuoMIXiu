@@ -1,0 +1,7 @@
+<!--pages/page-ddxq/page-ddxq.wxml-->
+<header_ddxq></header_ddxq>
+
+<view wx:for="{{navs}}" class="Number">
+<label class="">{{item.name}}</label>
+<input placeholder="{{item.inp}}"></input>
+</view>

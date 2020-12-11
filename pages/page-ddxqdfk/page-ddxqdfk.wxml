@@ -1,0 +1,54 @@
+<!--pages/page-ddxqdfk/page-ddxqdfk.wxml-->
+<view class="daifu">
+	<text>待付款</text>
+</view>
+<view class="mess">
+	<image class="mess_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_add.png"></image>
+	<view class="mess_title">
+		<view class="mess_title1"><text>孙幸福</text><text>15638964256</text></view>
+		<view class="mess_title2">
+			<text>河南省 郑州市 二七区 马寨镇郑州科技学院</text>
+		</view>
+	</view>
+</view>
+
+<view class="merchandise">
+	<text class="message_text">商品信息</text>
+	<view class="odre"> <text>订单号:2020101453524949</text><text>2020-10-14  15:01:57</text></view>
+	<view class="merchandise_mass">
+		<image class="merchandise_mass_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+		<view class="merchandise_recommend">
+			<view class="merchandise_recommend1">
+				华为mate 30全网通 标配版 8GB+128GB 星
+				河银 移动联通电信4G全面屏手机 双...
+			</view>
+			<view class="merchandise_recommend2">颜色:星河银; 版本:8+128G;</view>
+			<view class="merchandise_recommend3">
+				<text class="num">×1</text>
+				<text class="merchandise_recommend3_text">¥4699.00</text>
+			</view>
+		</view>
+	</view>
+	<view class="heji"><text>共1件商品，合计：</text><text class="price">¥4699.00</text></view>
+</view>
+
+<view class="money">
+	<text class="money_text">订单金额</text>
+	<view class="money_left">
+		<text class="money_left1">商品金额：</text>
+		<text class="money_left2">¥4699.00</text>
+	</view>
+	<view class="money_left">
+		<text class="money_left1">配送费用：</text>
+		<text class="money_left2">+¥5.00</text>
+	</view>
+	<view class="money_left">
+		<text class="money_left1">实付金额：</text>
+		<text class="money_left2">¥4704.00</text>
+	</view>
+
+	<view class="button_btn"> 
+	<view class="Cancel_btn">取消订单</view>
+	<view class="confirm_btn">去付款</view>
+	</view>
+</view>

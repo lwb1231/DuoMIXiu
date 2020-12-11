@@ -1,0 +1,81 @@
+<!--导航条-->
+<view class="navbar">
+	<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+	<view wx:for="{{icon_right_top}}" class="item {{currentTab==index ? ''  : ''}}" wx:key="unique" bindtap="navbarTap" id="right-icon">
+		<view class="icon-big">
+			<image hidden="{{currentTab!==index}}" class="icon-style" src="{{item.url}}"></image>
+		</view>
+	</view>
+	<view class="right-icon">
+		<image class="img-ss1" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_sousuo.png"></image>
+		<image class="img-ss2" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_liuyan.png"></image>
+	</view>
+</view>
+
+<!--关注-->
+<view hidden="{{currentTab!==0}}">
+	<view class="page2-top">
+	</view>
+	<view class="recommend_sp">
+		<block wx:for="{{image_sp}}" wx:key="{{title}}">
+			<view style="width:350rpx;" class="recommend_sp_img" bindtap="goParticulars" data-path='{{item.path}}'>
+				<image style="width:346rpx;height:416rpx" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+				<text class="shiping">{{item.title}}</text>
+			</view>
+		</block>
+	</view>
+	<view style="height:150rpx"></view>
+</view>
+
+<!--直播-->
+<view hidden="{{currentTab!==1}}">
+	<view class="page2-top">
+	</view>
+	<view class="recommend_sp">
+		<block wx:for="{{image_sp}}" wx:key="{{title}}">
+			<view style="width:350rpx;" class="recommend_sp_img" bindtap="goParticulars" data-path='{{item.path}}'>
+				<image style="width:346rpx;height:416rpx" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+				<text class="shiping">{{item.title}}</text>
+			</view>
+		</block>
+	</view>
+	<view style="height:150rpx"></view>
+</view>
+
+<!--悬赏中心-->
+<view hidden="{{currentTab!==2}}">
+	<view class="page1-top" wx:if="{{!isShowNewTabbar}}">
+		<swiper class="navban">
+			<swiper-item>
+				<block wx:for="{{navs}}" key="" class="navs-img">
+					<view class="navbox" bindtap="{{ stopBtn ? 'showContent' : 'hideContent' }}">
+						<image class="navimg" src="{{item.img}}"></image>
+						<text class="navtext">{{item.name}}</text>
+					</view>
+				</block>
+			</swiper-item>
+		</swiper>
+	</view>
+
+	<view wx:if="{{choose}}" class='companyInfo' wx:for-index="idx" wx:key="0" animation='{{animationData}}'>
+		<block wx:for="{{navs1}}" key="" class="navs-img">
+			<view class="navbox navbox_more" bindtap="{{ stopBtn ? 'showContent' : 'hideContent' }}">
+				<image class="navimg" src="{{item.thumb}}"></image>
+				<text class="navtext">{{item.name}}</text>
+			</view>
+
+		</block>
+	</view>
+
+	<view class="recommend_sp">
+		<block wx:for="{{image_sp}}" wx:key="{{title}}">
+			<view style="width:350rpx;" class="recommend_sp_img" bindtap="goParticulars" data-path='{{item.path}}'>
+				<image class="image1" src="{{item.img}}" mode="aspectFill"></image>
+				<text class="shiping">{{item.title}}</text>
+			</view>
+		</block>
+	</view>
+
+	<view style="height:150rpx"></view>
+</view>

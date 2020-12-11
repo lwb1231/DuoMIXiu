@@ -1,0 +1,8 @@
+{
+  "navigationStyle":"custom",
+  "usingComponents": {
+    "header_lz": "/components/header-kslz/index"
+
+  }
+
+}

@@ -1,0 +1,93 @@
+/* pages/page-qyjz/page-qyjz.wxss */
+page {
+  width: 750rpx;
+  height: 1220rpx;
+  background: #F4F4F4;
+}
+
+
+.identity-authentication {
+  height: 220rpx;
+  margin-top: 1rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+.identity-authentication_img {
+  width: 229rpx;
+  height: 209rpx;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  background: #FFFFFF;
+
+}
+
+.Wait {
+  height: 100rpx;
+  background: #FFFFFF;
+
+}
+.Wait view{
+  width: 484rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 40rpx;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.Agree {
+  width: 750rpx;
+  height: 98rpx;
+  background: #FF1C6C;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.name1{
+  padding: 0 20rpx;
+  display: flex;
+  line-height: 80rpx;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+}
+.name2{
+  padding: 0 20rpx;
+  display: flex;
+  line-height: 80rpx;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  margin-top: 1rpx;
+}

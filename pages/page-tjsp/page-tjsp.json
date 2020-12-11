@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "添加商品",
+  "backgroundColor": "#222222",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "search": "/components/header-sousuo_wu/index"
+  }
+}

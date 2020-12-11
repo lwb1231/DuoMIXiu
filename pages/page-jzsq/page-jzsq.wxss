@@ -1,0 +1,147 @@
+/* pages/page-jzsq/page-jzsq.wxss */
+page{
+background: #DEDEDE;
+}
+.tips{
+  width: 750rpx;
+  height: 60rpx;
+  background: #FF1C6C;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 60rpx;
+  padding-left: 50rpx;
+}
+.information{
+  margin-top: 1rpx;
+}
+.information_num label{
+  display: inline-block;
+  width: 150rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+}
+.information_num{
+  line-height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rpx;
+  background: #FFFFFF;
+  padding: 20rpx;
+}
+.information_num textarea{
+  height: 40rpx;
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  padding-left: 20rpx;
+}
+.information_num:nth-last-of-type(1) label{
+  margin-bottom: 100rpx;
+}
+.information_num:nth-last-of-type(1) textarea{
+  margin-bottom: 100rpx
+  ;
+}
+
+.uploading_credentials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.uploading{
+  height: 240rpx;
+  background: #fff;
+  margin-top: 1rpx;
+  padding: 0 20rpx;
+ }
+
+.privilege{
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+ }
+
+ .privilege-modality{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50rpx;
+ }
+.privilege-modality text{
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 10rpx;
+}
+ .privilegeOne{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 162rpx;
+  height: 124rpx;
+  background: #E8E8E8;
+
+ }
+ .privilege-img{
+   width: 39rpx;
+   height: 39rpx;
+ }
+ .privilegeOne text{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin-top: 20rpx;
+  color: #666666;
+ }
+
+ .privilegeTwo{
+   margin-left: 60rpx;
+ }
+ .privilegeTwo_1{
+   width: 150rpx;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   margin-bottom: 50rpx;
+ }
+ .privilegeTwo-img{
+   width: 35rpx;
+   height: 35rpx;
+ }
+ .privilegeTwo text{
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 10rpx;
+ }
+.submit{
+  height: 200rpx;
+  background: #fff;
+  padding-top: 20rpx;
+}
+.submit_btn{
+  width: 702rpx;
+  height: 76rpx;
+  background: #FF1C6C;
+  border-radius: 33rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 76rpx;
+  text-align: center;
+
+}

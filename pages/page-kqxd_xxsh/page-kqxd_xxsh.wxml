@@ -1,0 +1,6 @@
+<!--pages/page-kqxd_xxsh/page-kqxd_xxsh.wxml-->
+<view class="identity-authentication">
+<image class="identity-authentication_img" src="/images/icon_shenfensaomiao.png"></image>
+</view>
+<view class="message">信息审核中...</view>
+<view class="Wait">3个工作日内会有审核结果，请耐心等待</view>

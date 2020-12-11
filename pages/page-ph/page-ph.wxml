@@ -1,0 +1,166 @@
+<!--pages/page-ph/page-ph.wxml-->
+<!-- 导航栏 -->
+<view class="page">
+  <view
+    style="background:url('/images/ph-bg@2x.png') no-repeat ;width1000rpx;height:1000rpx; position:relative;background-position:50% -200rpx;background-size: 200%;">
+    <!--收益榜-->
+    <view class="navbar">
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+        bindtap="navbarTap">{{item}}</text>
+    </view>
+
+    <!--收益榜-->
+    <view hidden="{{currentTab!==0}}">
+      <view class="page1-top">
+    <!--日榜-->
+      <view class="navbar-one">
+      <view wx:for="{{navbar_one}}" data-idx="{{index}}" class="item {{currentTab_one==index ? 'active_one' : ''}}"
+        wx:key="unique" bindtap="navbarTap_One">{{item}}</view>
+      </view>
+        <swiper class="navban">
+          <swiper-item>
+            <block wx:for="{{navs}}" key="" class="navs-img">
+              <view class="navbox">
+                <image  class="navimg img_One" src="{{item.image}}"></image>
+                <image class="navimg" src="{{item.img}}"></image>
+                <text> {{item.name}}</text>
+                <view class="introduce">
+                  <view class="gender">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                  </view>
+                  <view class="song">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                    <view class="num">{{item.num}}</view>
+                  </view>
+                </view>
+                <text> {{item.text}}</text>
+                <view class="attention">{{item.attention}}</view>
+                <view class="estate">{{item.estate}}</view>
+              </view>
+            </block>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+
+    <!--贡献榜-->
+    <view hidden="{{currentTab!==1}}">
+      <view class="page1-top">
+      <!--日榜-->
+      <view class="navbar-one">
+      <view wx:for="{{navbar_one}}" data-idx="{{index}}" class="item {{currentTab_one==index ? 'active_one' : ''}}"
+        wx:key="unique" bindtap="navbarTap_One">{{item}}</view>
+      </view>
+        <swiper class="navban">
+          <swiper-item>
+            <block wx:for="{{navs}}" key="" class="navs-img">
+              <view class="navbox">
+                <image  class="navimg img_One" src="{{item.image}}"></image>
+                <image class="navimg" src="{{item.img}}"></image>
+                <text> {{item.name}}</text>
+                <view class="introduce">
+                  <view class="gender">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                  </view>
+                  <view class="song">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                    <view class="num">{{item.num}}</view>
+                  </view>
+                </view>
+                <text> {{item.text}}</text>
+                <view class="attention">{{item.attention}}</view>
+                <view class="estate">{{item.estate}}</view>
+              </view>
+            </block>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+    <!-- 月榜 -->
+    <view hidden="{{currentTab!==2}}">
+      <view class="page1-top">
+        <swiper class="navban">
+          <swiper-item>
+            <block wx:for="{{navs}}" key="" class="navs-img">
+              <view class="navbox">
+                <image  class="navimg img_One" src="{{item.image}}"></image>
+                <image  class="navimg img_One" src="{{item.image}}"></image>
+                <image class="navimg" src="{{item.img}}"></image>
+                <text> {{item.name}}</text>
+                <view class="introduce">
+                  <view class="gender">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                  </view>
+                  <view class="song">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                    <view class="num">{{item.num}}</view>
+                  </view>
+                </view>
+                <text> {{item.text}}</text>
+                <view class="attention">{{item.attention}}</view>
+                <view class="estate">{{item.estate}}</view>
+              </view>
+            </block>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+    <!-- 总榜 -->
+    <view hidden="{{currentTab!==3}}">
+      <view class="page1-top">
+        <swiper class="navban">
+          <swiper-item>
+            <block wx:for="{{navs}}" key="" class="navs-img">
+              <view class="navbox">
+                <image  class="navimg img_One" src="{{item.image}}"></image>
+                <image class="navimg" src="{{item.img}}"></image>
+                <text> {{item.name}}</text>
+                <view class="introduce">
+                  <view class="gender">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                  </view>
+                  <view class="song">
+                    <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+                    <view class="num">{{item.num}}</view>
+                  </view>
+                </view>
+                <text> {{item.text}}</text>
+                <view class="attention">{{item.attention}}</view>
+                <view class="estate">{{item.estate}}</view>
+              </view>
+            </block>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<!-- 主播 -->
+<view class="anchor">
+  <block class="ranking" wx:for="{{ranking}}" key="">
+    <view class="ranking-one">
+      <view class="seniority"> {{item.name}}</view>
+      <view class="seniority">
+        <image class="img" src="{{item.img}}"></image>
+      </view>
+      <view class="presentation">
+        <view class="presentation_one">
+          <view class="presentation-name"> {{item.screen}}</view>
+          <view class="introduce introduce_one">
+            <view class="gender">
+              <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+            </view>
+            <view class="song">
+              <image style="width:15rpx;height:15rpx" src="{{item.ico}}"></image>
+              <view class="num">{{item.num}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="ticket">{{item.text}}</view>
+      </view>
+      <view class="click-attention">{{item.text1}}</view>
+    </view>
+  </block>
+</view>

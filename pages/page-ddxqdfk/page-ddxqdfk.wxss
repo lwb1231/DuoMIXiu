@@ -1,0 +1,241 @@
+/* pages/page-ddxqdfk/page-ddxqdfk.wxss */
+
+page {
+  height: 100%;
+  background: #F4F4F4;
+}
+
+.mess {
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  height: 150rpx;
+  background: #fff;
+}
+
+.daifu {
+  width: 750rpx;
+  height: 83rpx;
+  background: url(https://wxx.zyinc.net/web/uploads/mall1/20201023/images/bg.png) no-repeat center;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+}
+
+.daifu text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.mess_img {
+  width: 34rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+}
+
+.mess_title1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+
+}
+
+.mess_title2 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+
+
+.merchandise {
+  height: 450rpx;
+  background: #fff;
+  margin-top: 15rpx;
+  padding: 0 20rpx;
+}
+
+
+.message {
+  height: 316rpx;
+  background: #fff;
+  margin-top: 6rpx;
+  padding: 0 20rpx;
+}
+
+.message_text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+}
+
+.merchandise_mass {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+
+.merchandise_mass_img {
+  width: 152rpx;
+  height: 146rpx;
+}
+
+.merchandise_recommend {
+  width: 600rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.merchandise_recommend1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+
+.merchandise_recommend2 {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  margin: 10rpx 0;
+}
+
+.merchandise_recommend3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.num {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+
+.merchandise_recommend3_text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF1C6C;
+}
+
+.odre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.odre text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 20rpx;
+
+}
+
+.heji {
+  height: 50rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heji text:nth-child(1) {
+  position: absolute;
+  right: 80px;
+}
+
+.price {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF1C6C;
+  position: absolute;
+  right: 20rpx;
+}
+
+.money{
+  height: 510rpx;
+  background: #fff;
+  margin-top: 6rpx;
+
+}
+.money_left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30rpx 0 ;
+  padding: 0 20rpx;
+}
+.money_left1{
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #666666;
+}
+.money_left2{
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #FF1C6A;
+}
+
+.money_text{
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+
+}
+.button_btn{
+  height: 98rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.Cancel_btn{
+  height: 98rpx;
+  width: 50%;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #333333;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.confirm_btn{
+  height: 98rpx;
+  width: 50%;
+background: #FF1C6A;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}

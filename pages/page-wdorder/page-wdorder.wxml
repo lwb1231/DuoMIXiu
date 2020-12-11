@@ -1,0 +1,38 @@
+<!--pages/page-wdorder/page-wdorder.wxml-->
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+</view>
+
+<view class="commodity">
+  <view class="commodity_One">
+    <text>商品列表</text>
+    <text>待付款</text>
+  </view>
+  <view class="commodity_two">
+    <text>订单号:2020101453524949</text>
+    <text>{{time}}</text>
+  </view>
+</view>
+<view class="Orderdetail">
+
+  <view class="master-drawing">
+    <view class="master">
+      <image class="master_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+      <image class="master_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+    </view>
+    <view class="drawing">
+      <text>共两件</text>
+      <image class="drawing_icon" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png">
+      </image>
+    </view>
+  </view>
+  <view class="summation">
+    <view class="summation1">合计 <text class="summation1_2">{{summation}}</text></view>
+    <view class="summation2">
+      <view class="summation2_1">取消</view>
+      <view class="summation2_2">付款</view>
+    </view>
+  </view>
+</view>

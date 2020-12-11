@@ -1,0 +1,8 @@
+<!--components/subtract-com/index.wxml-->
+<view>
+<view class='stepper sum'>
+<text class='{{minusStatus}}' type='number' bindtap='bindMinus'>-</text>
+<input bindinput='bindManual' value='{{num}}'></input>
+<text bindtap='bindPlus'>+</text>
+</view>
+</view>

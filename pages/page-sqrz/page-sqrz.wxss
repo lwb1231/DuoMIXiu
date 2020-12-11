@@ -1,0 +1,112 @@
+/* pages/page-sqrz/page-sqrz.wxss */
+.header_bg {
+  width: 750rpx;
+  height: 90rpx;
+  background: #DE3766;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.user_message {
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+
+.user_message label {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+
+.user_message input {
+  height: 80rpx;
+  padding-left: 20rpx;
+}
+
+.Upload{
+  height: 230rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Upload1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Upload1 text{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #666666;
+margin-top: 10rpx;
+}
+
+.Upload_img{
+  width: 39rpx;
+height: 39rpx;
+
+}
+.Upload1_top{
+  width: 162rpx;
+height: 116rpx;
+border: 2rpx dashed #C2C2C2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Example{
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+padding: 0 20rpx;
+
+}
+.Example_img{
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.Example_img image{
+  width: 406rpx;
+  height: 321rpx;
+  margin-bottom: 20rpx;
+}
+.Example_img view{
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #DE3766;
+  line-height: 60rpx;
+}
+
+.Agree{
+  width: 573rpx;
+height: 76rpx;
+background: #FF1C6C;
+border-radius: 38rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40rpx auto auto auto;
+}

@@ -1,0 +1,66 @@
+<!--pages/page-sqxd/page-sqxd.wxml-->
+<view class="uploading">
+  <view class="privilege">
+    <image style="width:18rpx;height:17rpx"
+      src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_wujiaoxing.png"></image>
+    <view>
+      店铺图片（用于店铺主页展示）
+    </view>
+  </view>
+  <view class="uploading_credentials">
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class="privilege">
+    <image style="width:18rpx;height:17rpx"
+      src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_wujiaoxing.png"></image>
+    <input type="text" placeholder="店铺名称（最多可输入10个字）" placeholder-style="font-size: 24rpx;color: #666666;" />
+  </view>
+</view>
+
+<view class="privilege privilege1">
+  <image style="width:18rpx;height:17rpx"
+    src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_wujiaoxing.png"></image>
+  <input type="text" placeholder="商品简介(最多可输入50个字)" placeholder-style="font-size: 24rpx;color: #666666;" />
+</view>
+
+<view class="uploading uploading_img">
+  <view class="privilege">
+    <image style="width:18rpx;height:17rpx"
+      src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_wujiaoxing.png"></image>
+    <view>
+      店铺图片（用于店铺主页展示）
+    </view>
+  </view>
+  <view class="uploading_credentials Oli_img">
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>营业执照</text>
+    </view>
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>许可证</text>
+    </view>
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>其他证件</text>
+    </view>
+  </view>
+</view>
+
+<view class="submit">
+  <view class="submit_btn">提交申请</view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/page-qyjz/page-qyjz.wxml-->
+
+<view class="contract">
+	<view class="contract_left">家族名称：</view>
+	<view class="contract_right">你好</view>
+
+</view>
+<view class="contract">
+	<view class="contract_left">家族抽成比例：</view>
+	<view class="contract_right">0%</view>
+
+</view>
+<view class="contract">
+	<view class="contract_left">签约说明</view>
+<image class="contract_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_gengduo.png"></image>
+</view>
+
+<view class="Agree">同意并签约</view>

@@ -1,0 +1,27 @@
+<!--pages/page-sy_ss/page-sy_ss.wxml-->
+<header_ss></header_ss>
+<header_search></header_search>
+<view wx:for="{{watchful}}">
+	<view class="close-attention">
+		<image class="attention_img" src="{{item.img}}"></image>
+		<view class="attention_nav">
+			<view class="introduce">
+				<view class="attention_nav_One">{{item.name}}</view>
+				<view class="gender">
+					<image class="gender1" src="{{item.ico1}}"></image>
+				</view>
+				<view class="song">
+					<image class="song1" src="{{item.ico2}}"></image> <text class="num">{{item.num1}}</text>
+				</view>
+				<view class="dou">
+					<image class="dou1" src="{{item.ico3}}"></image> <text class="num">{{item.num2}}</text>
+				</view>
+			</view>
+			<view class="attention_nav_Three"></view>
+			<view class="attention_nav_Four"></view>
+		</view>
+		<view class="attention_keep">
+			<text>{{item.text}}</text>
+		</view>
+	</view>
+</view>

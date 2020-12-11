@@ -1,0 +1,29 @@
+<!--pages/page-wdrz/page-wdrz.wxml-->
+<view class="page">
+  <image class="authentication" src="/images/icon_shenfen.png"></image>
+</view>
+<view class="tips">
+  <text class="text">亲爱的用户</text>
+</view>
+<view class="tips1">
+  <text class="text1">收到付费礼物可领取劳务费</text>
+</view>
+<view class="tips1">
+  <text class="text1">为保证 <text class="regulations">资金安全</text></text>
+</view>
+<view class="tips1">
+  <text class="text1">开播前请通过<text class="regulations">身份认证</text>绑定账户</text>
+</view>
+<view class="tips1">
+  <text class="text1">开播前请通过<text class="regulations">身份认证</text>绑定账户</text>
+</view>
+<view class="tips1">
+  <text class="text1">通过认证可以获得更好的体验</text>
+</view>
+
+<view class="attestation">
+  <text class="approve">认证即同意<text class="regulations">主播协议</text></text>
+  <view class="btn">
+    立即认证
+  </view>
+</view>

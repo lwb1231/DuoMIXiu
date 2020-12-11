@@ -1,0 +1,412 @@
+/* pages/page-particulars/page-particulars.wxss */
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+/* 直接设置swiper属性 */
+swiper {
+  height: 500rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+
+}
+
+.pric-orig {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.detail .price {
+  margin: 10rpx;
+  font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF1C6C;
+
+}
+
+.original {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.line_flag {
+  width: 80rpx;
+  height: 1rpx;
+  display: inline-block;
+  margin: 20rpx auto;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  height: 2rpx;
+  display: inline-block;
+  margin: 20rpx 0rpx;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.detail-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100rpx;
+}
+
+.button-cartColor {
+  height: 98rpx;
+  background: #FF7B2B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 28rpx;
+
+}
+
+.button-purchase {
+  height: 98rpx;
+  background: #FF1C6C;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 28rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_detail {
+  width: 100%;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 100%;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  overflow: none;
+}
+
+.detail-nav image {
+  width: 60rpx;
+  height: 43rpx;
+  padding: 20rpx 30rpx;
+}
+
+.line_nav {
+  width: 5rpx;
+  height: 100%;
+  background-color: gainsboro;
+}
+
+/* 占位 */
+.temp {
+  height: 100rpx;
+}
+
+text {
+  display: block;
+  font-size: 30rpx;
+  margin: 10rpx;
+}
+
+.share {
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  position: absolute;
+  right: 20rpx;
+}
+
+.share-img {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.share-text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+
+.volume {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  position: absolute;
+  top: 70rpx;
+  left: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* sku选择 */
+.dialog__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.dialog__container {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  background: white;
+  transform: translateY(150%);
+  transition: all 0.4s ease;
+  z-index: 11;
+}
+
+.dialog--show .dialog__container {
+  transform: translateY(0);
+}
+
+.dialog--show .dialog__mask {
+  display: block;
+}
+
+.image-sku {
+  width: 200rpx;
+  height: 200rpx;
+  z-index: 12;
+  position: absolute;
+  left: 20px;
+  top: -30px;
+  border-radius: 20rpx;
+}
+
+.image-close {
+  width: 40rpx;
+  height: 40rpx;
+  position: fixed;
+  right: 10rpx;
+  top: 10rpx;
+  z-index: 999;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.border-line {
+  width: 100%;
+  height: 2rpx;
+  display: inline-block;
+  margin: 30rpx 0rpx;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.sku-title {
+  position: relative;
+  left: 300rpx;
+  margin: 1rpx;
+}
+
+.sku-price {
+  color: red;
+  position: relative;
+  left: 300rpx;
+  margin: 1rpx;
+}
+.select {
+  height: 88rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-top: 50rpx;
+  padding-left: 10rpx;
+  border: 1rpx solid #e5e5e5;
+}
+
+.select-color,
+.select-versions {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  padding-left: 10rpx;
+}
+
+.select-more {
+  width: 9rpx;
+  height: 14rpx;
+  position: absolute;
+  right: 20rpx;
+}
+
+.jieshao {
+  width: 60%;
+  position: relative;
+  margin-left: 35%;
+}
+
+.jieshao .title {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 36rpx;
+}
+
+.jieshao .price {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF1C6C;
+  line-height: 42rpx;
+}
+
+.jieshao .original {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #888888;
+  line-height: 42rpx;
+}
+
+.jieshao .volume {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #888888;
+  line-height: 42rpx;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar>text {
+  width: 125rpx;
+  height: 56rpx;
+  color: #323232;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20rpx 30rpx;
+  border-radius: 5rpx;
+  border: 1rpx solid #323232;
+}
+
+.navbar text.active {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 15rpx;
+  opacity: 0.9;
+  border: 1rpx solid #fff;
+}
+
+.navbar text.active:after {
+  content: "";
+  display: block;
+  width: 130rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 0rpx;
+  top: -5rpx;
+  z-index: -1;
+  background: #FF1C6C;
+  border-radius: 5px;
+
+}
+.choose_color {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 42rpx;
+}
+
+.color {
+  line-height: 100rpx;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separate{
+  display: inline-block;
+  width: 100%;
+  height: 88rpx;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #000000;
+padding-left: 10rpx;
+margin: 20rpx 0;
+border: 1rpx solid #e5e5e5;
+display: flex;
+align-items: center;
+}

@@ -1,0 +1,27 @@
+/* pages/page-xzshdz/page-xzshdz.wxss */
+.new_add{
+  padding: 0 20rpx;
+  display: flex;
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #222222;
+margin: 20rpx 0;
+}
+.new_add input{
+  padding-left: 10rpx;
+}
+.btn{
+  width: 702rpx;
+  height: 76rpx;
+  background: #FF1C6C;
+  border-radius: 33rpx;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 72rpx auto auto auto;
+}

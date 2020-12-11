@@ -1,0 +1,47 @@
+<!--pages/page-jzsq/page-jzsq.wxml-->
+<view class="tips">
+  为保证家族申请顺利通过，请如实填写下列信息
+</view>
+<view class="information">
+  <view wx:for="{{navs}}" key="" class="information_num">
+    <label for="">{{item.name}}</label>
+    <textarea class="detailText" placeholder="{{item.title}}" placeholder-style="font-size: 28rpx;color: #999999"
+      bindblur="bindTextAreaBlur" value="{{details}}">
+</textarea>
+  </view>
+</view>
+<view class="uploading">
+  <view class="privilege">证件照片</view>
+  <view class="uploading_credentials">
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>手持证件正面照</text>
+    </view>
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>手持证件背面照</text>
+    </view>
+  </view>
+</view>
+
+<view class="uploading">
+  <view class="privilege">家族图片</view>
+  <view class="uploading_credentials">
+    <view class="privilege-modality">
+      <view class="privilegeOne">
+        <image class="privilege-img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jia.png">
+        </image>
+      </view>
+      <text>家族图片</text>
+    </view>
+  </view>
+</view>
+<view class="submit">
+  <view class="submit_btn">提交申请</view>
+</view>

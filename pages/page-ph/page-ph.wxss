@@ -1,0 +1,346 @@
+/* pages/page-ph/page-ph.wxss */
+/* 贡献榜*/
+.page{
+   width:100%;
+   height:900rpx;
+   position: relative;
+   
+}
+ .navbar{
+  position:absolute;
+  padding-top: 80rpx;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+ }
+ 
+ .navbar .item{
+  position: relative;
+  margin-left: 20rpx;
+  text-align: center;
+  color: #FEFEFE;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FEFEFE;
+  line-height: 15rpx;
+ }
+ .navbar .item.active{
+    font-size: 32rpx;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FEFEFE;
+    line-height: 15rpx;
+    opacity: 0.9;
+ }
+ .navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50rpx;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 49rpx;
+  height: 6rpx;
+  background: #FFFFFF;
+  border-radius: 3px;
+ }
+
+/*日榜*/
+.navbar-one{
+   position:absolute;
+   padding-top: 140rpx;
+   flex: auto;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   z-index: 99;
+ }
+ .navbar-one .item{
+    display: inline-block;
+  position: relative;
+  text-align: center;
+  flex: auto;
+  color: #FEFEFE;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  width: 20%;
+  color: #FEFEFE;
+  line-height: 15rpx;
+ }
+ .navbar-one .item.active_one{
+    font-size: 32rpx;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FEFEFE;
+    line-height: 15rpx;
+    opacity: 0.9;
+ }
+ .navbar-one .item.active_one:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80rpx;
+  height: 50rpx;
+  border: 2rpx solid #FFFFFF;
+  border-radius: 3px;
+ }
+ .grade{
+    width: 100%;
+    height: 1127rpx;
+    position: relative;
+ }
+ .grade-one{
+    width: 300rpx;
+    height: 500rpx;
+    position: absolute;
+    left: 50%;
+    top: 700rpx;
+    text-align: center;
+ }
+ .user-photo{
+    width: 126.3rpx;
+    height: 126.3rpx;
+ }
+
+
+
+  .swiper-container{
+    position: relative;
+    margin-top:85rpx;
+  }
+  .swiper-container .swiper{
+    height: 300rpx;
+  }
+
+  .swiper-container .dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20rpx;
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-container .dots .dot{
+    margin: 0 8rpx;
+    width: 14rpx;
+    height: 14rpx;
+    background: #fff;
+    border-radius: 8rpx;
+    transition: all .6s;
+  }
+  .swiper-container .dots .dot.active{
+    width: 24rpx;
+    background: #f80;
+  }
+ 
+  .navban{
+      height: 100%;
+  }
+  .page2-top{
+   height: 150rpx;
+   width:100%;
+  }
+  .page1-top{
+    height: 2000rpx;
+    width:100%;
+  }
+  .page1-top .navbox{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 40%;
+  }
+  .navbox image{
+    height: 90.7rpx;
+    width: 90.7rpx;
+    border-radius: 50%;
+  }
+  .navbox text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rpx;
+    font-size: 24rpx;
+  }
+
+ .right-icon{
+   position:fixed;
+   padding-top: 50rpx;
+   width: 100%;
+   height: 80rpx;
+   background: #fff;
+   z-index: 999;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0rpx;
+   right: -450rpx;
+ }
+ .icon-style{
+   width:17rpx;
+   height:14rpx;
+   position: absolute;
+   left: -260rpx;
+   top: 20rpx;
+ }
+ .introduce{
+   width: 100%;
+  height: 38rpx;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .gender{
+  width: 19rpx;
+  height: 19rpx;
+  background: #E055FF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .gender1{
+ width: 8rpx;
+ height: 14rpx;
+ color: #FFFFFF;
+ 
+ }
+ .song{
+   width: 42rpx;
+   height: 19rpx;
+   border-radius: 10rpx;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 20rpx;
+   background: linear-gradient(90deg, #9650FD, #6803E7);
+ }
+ .num{
+   font-size: 16rpx;
+   font-family: PingFang SC;
+   font-weight: 500;
+   color: #fff;
+ }
+ .navbox:nth-of-type(1){
+  position: absolute;
+  top:0;
+  left: 15%;
+}
+ .navbox:nth-of-type(2){
+  position: absolute;
+  top:-60rpx;
+  left: 38%;
+}
+.navbox:nth-of-type(3){
+  position: absolute;
+  top:30rpx;
+  left: 60%;
+}
+.attention{
+  width: 84rpx;
+  height: 38rpx;
+  text-align: center;
+  line-height: 38rpx;
+  border: 2rpx solid #FFFFFF;
+  border-radius: 19rpx;
+  margin: 20rpx auto;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.estate{
+font-size: 80rpx;
+font-family: PingFang SC;
+font-weight: 800;
+color: #FFFFFF;
+line-height: 56rpx;
+opacity: 0.5;
+margin-top: 240rpx;
+}
+
+/*主播页*/
+.anchor{
+  margin-top: 100rpx;
+}
+.ranking-one{
+  width: 100%;
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 22rpx;
+}
+.seniority{
+  height: 100rpx;
+  width: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.img{
+  width: 70rpx;
+height: 70rpx;
+border-radius: 50%;
+
+}
+.presentation{
+  width: 300rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.presentation_one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.presentation-name{
+  width: 120rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 36rpx;
+}
+.introduce_one{
+  width: 100rpx;
+}
+.ticket{
+  margin-left: 40rpx;
+font-size: 22rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #999999;
+}
+.click-attention{
+width: 84rpx;
+height: 38rpx;
+line-height: 38rpx;
+text-align: center;
+position: absolute;
+right: 30rpx;
+border: 2rpx solid #FF1C6C;
+border-radius: 19rpx;
+
+}
+.img_One{
+  position: absolute;
+  margin-left: 30rpx;
+  top: -60rpx;
+}

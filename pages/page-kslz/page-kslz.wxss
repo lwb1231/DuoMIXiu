@@ -1,0 +1,7 @@
+/* pages/page-kslz/page-kslz.wxss */
+page{
+  width: 750rpx;
+height: 1334rpx;
+background: #333333;
+
+}

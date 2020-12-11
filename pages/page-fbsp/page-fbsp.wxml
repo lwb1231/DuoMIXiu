@@ -1,0 +1,63 @@
+<!--pages/page-fbsp/page-fbsp.wxml-->
+<view class="Options">
+	<image class="share_img" src="{{img}}"></image>
+	<input placeholder="商品链接(可粘贴拼多多店铺链接)" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+<view class="Options Options1">
+	<image class="share_img" src="{{img}}"></image>
+	<input placeholder="商品名称(最多可输入20个字)" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+
+<view class="Options Options1">
+	<input placeholder="原价" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+<view class="Options Options1">
+	<image class="share_img" src="{{img}}"></image>
+	<input placeholder="现价" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+<view class="Options Options1">
+	<image class="share_img" src="{{img}}"></image>
+	<input placeholder="市场价" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+<view class="Options Options1">
+	<image class="share_img" src="{{img}}"></image>
+	<input placeholder="商品简介(最多可输入50个字)" placeholder-style="font-size: 24rpx;color: #666666;"></input>
+</view>
+
+
+<view class="choose">
+	<view class="Options Options1">
+		<image class="share_img" src="{{img}}"></image>
+		<text>商品图片</text>
+	</view>
+	<view class="add_img">
+		<image src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jiahao.png"></image>
+
+	</view>
+	<view class="Options Options1 Options2">
+		<image class="share_img" src="{{img}}"></image>
+		<text>分类方式</text>
+		<view class="place">
+			<text>请选择</text>
+			<image class="share_img_1" src="{{imgge}}"></image>
+		</view>
+	</view>
+  	<view class="Options Options1 Options2">
+		<image class="share_img" src="{{img}}"></image>
+		<text>是否包邮</text>
+		<view class="place">
+			<text>请选择</text>
+			<image class="share_img_1" src="{{imgge}}"></image>
+		</view>
+	</view>
+  	<view class="Options Options1 Options2">
+		<image class="share_img" src="{{img}}"></image>
+		<text>物流快递</text>
+		<view class="place">
+			<text>请选择</text>
+			<image class="share_img_1" src="{{imgge}}"></image>
+		</view>
+	</view>
+
+  <view class="Release">确认发布</view>
+</view>

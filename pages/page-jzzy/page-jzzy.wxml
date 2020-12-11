@@ -1,0 +1,17 @@
+<!--pages/page-jzzy/page-jzzy.wxml-->
+<view class="list_mess">
+	<image class="list_mess_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/test.png"></image>
+	<view class="user_name">
+		<view>你好</view>
+		<view>族长：用户不存在</view>
+		<view class="user_ID">
+			<text>成员：0人</text>
+		</view>
+	</view>
+</view>
+<view class="brief-introduction1">简介</view>
+<view class="brief-introduction2">55874</view>
+<view class="brief-introduction3">签约主播（0）</view>
+<view class="Blank"></view>
+
+<view class="contract">我要签约</view>

@@ -1,0 +1,6 @@
+<!--pages/page-xx/page-xx.wxml-->
+<header></header>
+<view class="items">
+  <image style="width:70rpx;height:70rpx;" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_xiaoxi.png"></image>
+  <view class="title">系统消息</view>
+</view>

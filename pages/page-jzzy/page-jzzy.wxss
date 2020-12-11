@@ -1,0 +1,113 @@
+/* pages/page-jzzy/page-jzzy.wxss */
+page {
+
+  background: #DEDEDE;
+}
+
+.list {
+  padding: 0 20rpx;
+  margin-top: 8rpx;
+  height: 90rpx;
+  background: #fff;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  line-height: 60rpx;
+}
+
+.list_mess {
+  height: 220rpx;
+  margin-top: 1rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.list_mess_img {
+  width: 144rpx;
+  height: 144rpx;
+  border-radius: 10rpx;
+}
+
+.user_name {
+  margin-left: 30rpx;
+}
+
+.user_name view {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  line-height: 50rpx;
+}
+
+.user_ID text {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+
+.user_ID text:nth-child(2) {
+  margin-left: 60rpx;
+}
+
+.brief-introduction1 {
+  background: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  padding: 0 20rpx;
+  margin-top: 3rpx;
+}
+
+.brief-introduction2 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  background: #fff;
+  height: 95rpx;
+  line-height: 95rpx;
+  padding: 0 20rpx;
+  margin-top: 3rpx;
+
+}
+
+.brief-introduction3 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  background: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+  margin-top: 3rpx;
+}
+.Blank{
+  width: 750rpx;
+height: 630rpx;
+background: #F4F4F4;
+opacity: 0.4;
+
+}
+.contract{
+  width: 750rpx;
+height: 98rpx;
+background: #FF1C6C;
+font-size: 32rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 0;
+}

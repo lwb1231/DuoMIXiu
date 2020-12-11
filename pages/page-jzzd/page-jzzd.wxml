@@ -1,0 +1,23 @@
+<!--pages/page-jzzd/page-jzzd.wxml-->
+<!--pages/page-wdrz/page-wdrz.wxml-->
+<view class="page">
+  <image class="authentication" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_diqiu.png"></image>
+</view>
+<view class="tips">
+  <text class="text">您还没有加入家族哦</text>
+</view>
+<view class="tips1">
+  <text class="text1"> 通过家族玩法，你将获得更多的奖励，快来加入吧！</text>
+</view>
+
+<view class="attestation">
+  <view class="btn">
+    我要加入
+  </view>
+</view>
+
+<view class="establish">
+  <view class="establish_btn">
+    创建家族
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/page-kqxd_xxsh/page-kqxd_xxsh.wxml-->
+<view class="identity-authentication">
+	<image class="identity-authentication_img" src="/images/icon_shenhe.png"></image>
+</view>
+<view class="message">等待家族长审核中</view>
+<view class="Wait">
+	<view> 如管理员在10个工作日未接受审核，视为不通过，可再次发起创建家族申请
+	</view>
+</view>
+
+<view class="name1">
+  <text>家族名称：</text>
+  <view>你好</view>
+</view>
+<view class="name2">
+  <text>家族抽成比例：</text>
+  <view>0%</view>
+</view>
+
+<view class="Agree">撤销申请</view>

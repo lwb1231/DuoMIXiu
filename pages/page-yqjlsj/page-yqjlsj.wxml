@@ -1,0 +1,35 @@
+<!--pages/page-yqjl/page-yqjl.wxml-->
+<!-- 弹框 -->
+<view wx:if="{{isShow}}" bindtap="clickI" class="shadow_bg">
+  <view class="bg-box" catchtap='shadow_child'>
+    <view class="share">分享至</view>
+    <view class="interlinkage">
+      <view class="interlinkage_1">
+        <image class="interlinkage_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_weixin.png"></image>
+        <text class="interlinkage_text">微信</text>
+      </view>
+      <view class="interlinkage_1">
+        <image class="interlinkage_img" src="https://wxx.zyinc.net/web/uploads/mall1/20201023/images/icon_jianjie.png"></image>
+        <text class="interlinkage_text">复制链接</text>
+      </view>
+    </view>
+  </view>
+</view>
+<header_yqjl bind:parentEvent='onParentEvent'></header_yqjl>
+<view class="header_bag">
+  <image class="header_img" src="/images/shangji.png"></image>
+</view>
+<view class="Invitation-code">
+  <view class="Invitation">请输入上级邀请码</view>
+  <view class="code_num">
+    <view class="figure" wx:for="{{code_num}}" key=""></view>
+  </view>
+</view>
+
+
+<view class="tips">
+  <view>邀请须知：</view>
+  <view>请仔细填写对方的邀请码，填写后不可更改</view>
+</view>
+
+<view class="notarize_btn">确认</view>

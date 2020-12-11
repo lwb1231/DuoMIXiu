@@ -1,0 +1,32 @@
+/* pages/page-czmm/page-czmm.wxss */
+.password {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  padding: 0 20rpx;
+}
+.password label{
+  display: inline-block;
+  width: 130rpx;
+}
+.password input{
+  padding-left: 20rpx;
+}
+.affirm{
+  width: 702rpx;
+height: 76rpx;
+background: #FF1C6C;
+border-radius: 33rpx;
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+margin: 0 auto;
+text-align: center;
+line-height: 76rpx;
+margin-top: 80rpx;
+}

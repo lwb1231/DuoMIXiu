@@ -1,0 +1,92 @@
+/* pages/page-jzzd/page-jzzd.wxss */
+/* pages/page-wdrz/page-wdrz.wxss */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authentication {
+  width: 184rpx;
+  height: 144rpx;
+  margin-top: 50rpx;
+  border: 1rpx dashed #666666;
+}
+
+.tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+}
+
+.tips1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+}
+
+.text1 {
+  width: 455rpx;
+  text-align: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+}
+
+.attestation {
+  margin-top: 100rpx;
+}
+
+.btn {
+  width: 608rpx;
+  height: 76rpx;
+  background: #FF1C6C;
+  border-radius: 41rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+
+}
+
+.approve {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  margin-left: 25%;
+  margin-bottom: 20rpx;
+}
+
+.establish {
+  margin-top: 20rpx;
+}
+
+.establish_btn {
+  width: 608rpx;
+  height: 76rpx;
+  border: 2rpx solid #FF1C6C;
+  border-radius: 33rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF1C6C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

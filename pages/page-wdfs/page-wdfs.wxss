@@ -1,0 +1,21 @@
+/* pages/page-wdfs/page-wdfs.wxss */
+.vermicelli{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50%;
+}
+.vermicelli_one{
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 30rpx;
+}
+.vermicelli_two{
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #999999;
+}

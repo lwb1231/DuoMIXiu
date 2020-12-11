@@ -1,0 +1,231 @@
+/* pages/page-sqghs/page-sqghs.wxss */
+.supplier{
+  padding-left: 30rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+.supplier-img{
+  width: 34rpx;
+  height: 34rpx;
+}
+.supplier-text{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #3C454A;
+  margin-left: 15rpx;
+}
+.select{
+  padding: 0 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid  #E6E6E6;
+  display: flex;
+  align-items: center;
+}
+.select-name{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+}
+.select-title{
+font-size: 20rpx;
+font-family: PingFang SC;
+font-weight: 400;
+color: #999999;
+position: absolute;
+right: 40rpx;
+}
+.select-icon{
+  width: 13rpx;
+  height: 8rpx;
+  position: absolute;
+  right: 20rpx;
+}
+
+
+.select-title-one{
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  position: absolute;
+  right: 27%;
+}
+.select-title-two{
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  position: absolute;
+  right: 17%;
+}.select-title-three{
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  position: absolute;
+  right: 7%;
+}
+.select-icon-one{
+  width: 13rpx;
+  height: 8rpx;
+  position: absolute;
+  right: 25%;
+}
+.select-icon-two{
+  width: 13rpx;
+  height: 8rpx;
+  position: absolute;
+  right: 15%;
+}
+.select-icon-three{
+  width: 13rpx;
+  height: 8rpx;
+  position: absolute;
+  right: 5%;
+}
+
+.uploading{
+  padding: 0 40rpx;
+  margin-bottom: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+
+.uploading-icon{
+  width: 211rpx;
+  height: 132rpx;
+  background: #E6E6E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business-license{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 159rpx;
+  height: 99rpx;
+  border: 2rpx solid #FD4B6C;
+  position: relative;
+}
+.business-icon{
+  width: 49rpx;
+  height: 43rpx;
+}
+.block-top{
+  width: 135rpx;
+  height: 18rpx;
+  background: #E6E6E6;
+  position: absolute;
+  top: -9rpx;
+}
+.block-bottom{
+  width: 135rpx;
+  height: 18rpx;
+  background: #E6E6E6;
+  position: absolute;
+  bottom: -9rpx;
+}
+.block-left{
+  width: 21rpx;
+  height: 78rpx;
+  background: #E6E6E6;
+  position: absolute;
+  left: -9rpx;
+}
+.block-right{
+  width: 21rpx;
+  height: 78rpx;
+  background: #E6E6E6;
+  position: absolute;
+  right: -9rpx;
+}
+.earnest{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.earnest-title{
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+position: absolute;
+right: 20%;
+}
+.gopay{
+    width: 131rpx;
+    height: 51rpx;
+    line-height: 51rpx;
+    background: #FD4B6C;
+    border-radius: 25px;
+    font-size: 20rpx;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FEFEFE;
+    text-align: center;
+    position: absolute;
+    right: 10rpx;
+}
+.btn{
+  width: 702rpx;
+height: 78rpx;
+background: #FD4B6C;
+border-radius: 39px;
+font-size: 32rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #FFFFFF;
+line-height: 78rpx;
+text-align: center;
+margin: 100rpx auto auto auto;
+}
+
+page{
+  background: #F4F4F4;
+  }
+  .navbar{
+    height: 80rpx;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    margin-top: 1rpx;
+   }
+   .navbar .item{
+    position: relative;
+    width: 200rpx;
+    color: #333333;
+    font-size: 28rpx;
+   }
+   .navbar .item.active{
+     font-size: 32rpx;
+    color: #666666;
+  
+   }
+   .navbar .item.active:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 20rpx;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 6rpx;
+    width: 68rpx;
+    height: 10rpx;
+    background: #FF1C6C;
+    border-radius: 5rpx;
+   }
+  

@@ -1,0 +1,20 @@
+<!--pages/page-kqbzj/page-kqbzj.wxml-->
+<view class="Pay">
+	<text class="text">需要缴纳金额</text>
+	<view class="pay_right">
+		<text>100</text>
+		<image class="pay_right_img" src="/images/icon_zuanshi.png"></image>
+	</view>
+
+</view>
+<view class="explain">
+	<text class="text">保证金说明</text>
+	<view class="explain_sec">
+  <view>	1、 保证金由商户交由平台暂时保管,用于约束商户行为，保障消费者权益。</view>
+  <view>2、用户撤销我的小店时，可申请退还保证金。</view>
+  <view>	3、当用户开通店铺后 ，若存在欺骗消费者、售卖假冒伪劣产品等	一切违反国家法律法规以及平台规定的等行为，平台有权强制关闭店铺，保证金不予退还。</view>
+  <view>		4、店铺保证金最终解释权归平台所有。</view>
+	</view>
+<view class="Confirm-payment">确认缴纳</view>
+
+</view>

@@ -1,0 +1,23 @@
+<!--pages/page-wdsy/page-wdsy.wxml-->
+<view>
+  <hello></hello>
+  <view class="vote">
+    <view class="vote-num">
+      <view>总映票数</view>
+      <text>0</text>
+    </view>
+    <view class="main-string"></view>
+    <view class="vote-num withdraw-deposit">
+      <view>可提现映票数</view>
+      <text>0.00</text>
+    </view>
+  </view>
+  <view wx:for="{{navs}}" key="" class="import-num">
+    <view class="section">
+      <input class="input" placeholder-style="font-size: 26rpx;font-family: PingFang SC;font-weight: 500;color: #666666;" placeholder="{{item.title}}" auto-focus /> <text>{{item.num}}</text>
+    </view>
+
+  </view>
+  <view class="Immediate ">立即提现</view>
+  <view class="tips">每月1-31号可进行提现申请</view>
+</view>

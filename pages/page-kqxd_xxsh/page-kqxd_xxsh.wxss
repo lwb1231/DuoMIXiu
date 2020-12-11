@@ -1,0 +1,37 @@
+/* pages/page-kqxd_xxsh/page-kqxd_xxsh.wxss */
+page{
+  width: 750rpx;
+height: 1206rpx;
+background: #EEEEEE;
+}
+
+.identity-authentication{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100rpx;
+}
+.identity-authentication_img{
+  width: 404rpx;
+  height: 204rpx;
+}
+.message{
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20rpx;
+}
+.Wait{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #666666;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10rpx;
+}
